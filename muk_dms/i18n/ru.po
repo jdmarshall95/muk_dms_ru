@@ -172,124 +172,124 @@ msgstr "Добавляет поддержку сообщений и действ
 #. module: muk_dms
 #: model:ir.model.fields,help:muk_dms.field_res_config_settings__module_muk_dms_mail
 msgid "Adds support for messages and activities on directories and files."
-msgstr ""
+msgstr "Добавляет поддержку сообщений и действий над каталогами и файлами."
 
 #. module: muk_dms
 #: model_terms:ir.ui.view,arch_db:muk_dms.view_dms_category_search
 msgid "All"
-msgstr ""
+msgstr "Все"
 
 #. module: muk_dms
 #: model_terms:ir.ui.view,arch_db:muk_dms.search_dms_file
 msgid "All Files"
-msgstr ""
+msgstr "Все файлы"
 
 #. module: muk_dms
 #: model:ir.model.fields,help:muk_dms.field_res_config_settings__module_muk_dms_attachment_rules
 msgid "Allows attachments to be automatically placed in the right directory."
-msgstr ""
+msgstr "Позволяет автоматически размещать вложения в нужном каталоге."
 
 #. module: muk_dms
 #: model_terms:ir.ui.view,arch_db:muk_dms.res_config_settings_view_form
 msgid "Allows attachments to be stored inside of Documents"
-msgstr ""
+msgstr "Позволяет хранить вложения в Документах"
 
 #. module: muk_dms
 #: model:ir.model.fields,help:muk_dms.field_res_config_settings__module_muk_dms_attachment
 msgid "Allows attachments to be stored inside of Documents."
-msgstr ""
+msgstr "Позволяет хранить вложения в Документах."
 
 #. module: muk_dms
 #: model:ir.model.fields,help:muk_dms.field_res_config_settings__module_muk_dms_attachment_wizard
 msgid "Allows documents to be used as attachments."
-msgstr ""
+msgstr "Позволяет использовать документы в качестве вложений."
 
 #. module: muk_dms
 #: model:ir.model.fields,help:muk_dms.field_res_config_settings__module_muk_dms_export
 msgid "Allows the conversion of existing files."
-msgstr ""
+msgstr "Позволяет конвертировать существующие файлы."
 
 #. module: muk_dms
 #: model_terms:ir.ui.view,arch_db:muk_dms.res_config_settings_view_form
 msgid "Allows the creation of groups to define access rights"
-msgstr ""
+msgstr "Позволяет создавать группы для определения прав доступа"
 
 #. module: muk_dms
 #: model:ir.model.fields,help:muk_dms.field_res_config_settings__module_muk_dms_access
 msgid "Allows the creation of groups to define access rights."
-msgstr ""
+msgstr "Позволяет создавать группы для определения прав доступа."
 
 #. module: muk_dms
 #: model:ir.model.fields,help:muk_dms.field_res_config_settings__module_muk_dms_thumbnails
 msgid "Allows the creation of thumbnails for files."
-msgstr ""
+msgstr "Позволяет создавать миниатюры для файлов."
 
 #. module: muk_dms
 #: model:ir.model.fields,help:muk_dms.field_res_config_settings__module_muk_dms_widget
 msgid "Allows the user to use DMS documents as input for any binary field."
-msgstr ""
+msgstr "Позволяет пользователю использовать документы DMS в качестве входных данных для любого двоичного поля."
 
 #. module: muk_dms
 #: model:ir.model.fields,help:muk_dms.field_res_config_settings__module_muk_archive
 msgid "Allows to download directories as a archive file."
-msgstr ""
+msgstr "Позволяет скачивать каталоги в виде архива."
 
 #. module: muk_dms
 #: model_terms:ir.ui.view,arch_db:muk_dms.res_config_settings_view_form
 msgid "Allows to placed attachments in the right directory"
-msgstr ""
+msgstr "Позволяет размещать вложения в нужном каталоге"
 
 #. module: muk_dms
 #: model_terms:ir.ui.view,arch_db:muk_dms.res_config_settings_view_form
 msgid "Allows you to create rule templates to create attachment rules"
-msgstr ""
+msgstr "Позволяет создавать шаблоны правил для создания правил вложения"
 
 #. module: muk_dms
 #: model:ir.model.fields,help:muk_dms.field_res_config_settings__module_muk_dms_attachment_automation
 msgid "Allows you to create rule templates to create attachment rules."
-msgstr ""
+msgstr "Позволяет создавать шаблоны правил для создания правил вложения."
 
 #. module: muk_dms
 #: model:muk_dms.tag,name:muk_dms.tag_06_demo
 msgid "Apps"
-msgstr ""
+msgstr "Приложения"
 
 #. module: muk_dms
 #: model:ir.model.fields,field_description:muk_dms.field_muk_dms_file__active
 msgid "Archived"
-msgstr ""
+msgstr "Архив"
 
 #. module: muk_dms
 #: model:ir.model.fields,field_description:muk_dms.field_res_config_settings__module_muk_dms_attachment_automation
 msgid "Attachment Rule Automation"
-msgstr ""
+msgstr "Автоматизация правил вложения"
 
 #. module: muk_dms
 #: model:ir.model.fields,field_description:muk_dms.field_res_config_settings__module_muk_dms_attachment_wizard
 msgid "Attachment Wizard"
-msgstr ""
+msgstr "Мастер вложений"
 
 #. module: muk_dms
 #: model_terms:ir.ui.view,arch_db:muk_dms.res_config_settings_view_form
 msgid "Attachments"
-msgstr ""
+msgstr "Вложения"
 
 #. module: muk_dms
 #: model:ir.model.fields,field_description:muk_dms.field_res_config_settings__module_muk_dms_thumbnails
 msgid "Automatic Thumbnails"
-msgstr ""
+msgstr "Автоматические миниатюры"
 
 #. module: muk_dms
 #: model:ir.model.fields,field_description:muk_dms.field_res_config_settings__module_muk_dms_widget
 msgid "Binary Widget Support"
-msgstr ""
+msgstr "Поддержка двоичных виджетов"
 
 #. module: muk_dms
 #: model_terms:ir.ui.view,arch_db:muk_dms.view_dms_directory_new_form
 #: model_terms:ir.ui.view,arch_db:muk_dms.view_dms_file_new_form
 #: model_terms:ir.ui.view,arch_db:muk_dms.view_dms_storage_new_form
 msgid "Cancel"
-msgstr ""
+msgstr "Отмена"
 
 #. module: muk_dms
 #. openerp-web
@@ -300,12 +300,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:muk_dms.view_dms_category_tree
 #, python-format
 msgid "Categories"
-msgstr ""
+msgstr "Категории"
 
 #. module: muk_dms
 #: model_terms:ir.actions.act_window,help:muk_dms.action_dms_category
 msgid "Categories are used to categorize Documents."
-msgstr ""
+msgstr "Категории используются для классификации документов."
 
 #. module: muk_dms
 #: model:ir.model.fields,field_description:muk_dms.field_muk_dms_directory__category
@@ -313,12 +313,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:muk_dms.search_dms_directory
 #: model_terms:ir.ui.view,arch_db:muk_dms.search_dms_file
 msgid "Category"
-msgstr ""
+msgstr "Категория"
 
 #. module: muk_dms
 #: sql_constraint:muk_dms.category:0
 msgid "Category name already exists!"
-msgstr ""
+msgstr "Название категории уже существует!"
 
 #. module: muk_dms
 #: model:ir.model.fields,field_description:muk_dms.field_muk_dms_file__checksum
@@ -328,26 +328,26 @@ msgstr ""
 #. module: muk_dms
 #: model:ir.model.fields,field_description:muk_dms.field_muk_dms_category__child_categories
 msgid "Child Categories"
-msgstr ""
+msgstr "Дочерние Категории"
 
 #. module: muk_dms
 #: model_terms:ir.actions.act_window,help:muk_dms.action_dms_directories_all_directory
 #: model_terms:ir.actions.act_window,help:muk_dms.action_dms_directories_directory
 #: model_terms:ir.actions.act_window,help:muk_dms.action_dms_directories_storage
 msgid "Click to add a new directory."
-msgstr ""
+msgstr "Нажмите, чтобы добавить новый каталог."
 
 #. module: muk_dms
 #: model_terms:ir.actions.act_window,help:muk_dms.action_dms_files_all_directory
 #: model_terms:ir.actions.act_window,help:muk_dms.action_dms_files_directory
 #: model_terms:ir.actions.act_window,help:muk_dms.action_dms_files_storage
 msgid "Click to add a new file."
-msgstr ""
+msgstr "Нажмите, чтобы добавить новый файл."
 
 #. module: muk_dms
 #: model_terms:ir.actions.act_window,help:muk_dms.action_dms_tag
 msgid "Click to create a new tag."
-msgstr ""
+msgstr "Нажмите, чтобы добавить новую метку."
 
 #. module: muk_dms
 #: selection:res.company,documents_onboarding_directory_state:0
@@ -355,7 +355,7 @@ msgstr ""
 #: selection:res.company,documents_onboarding_state:0
 #: selection:res.company,documents_onboarding_storage_state:0
 msgid "Closed"
-msgstr ""
+msgstr "Закрыто"
 
 #. module: muk_dms
 #: model:ir.model.fields,field_description:muk_dms.field_muk_dms_directory__color
@@ -363,118 +363,118 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:muk_dms.search_dms_directory
 #: model_terms:ir.ui.view,arch_db:muk_dms.search_dms_file
 msgid "Color"
-msgstr ""
+msgstr "Цвет"
 
 #. module: muk_dms
 #: model:ir.model.fields,field_description:muk_dms.field_muk_dms_tag__color
 msgid "Color Index"
-msgstr ""
+msgstr "Индекс цвета"
 
 #. module: muk_dms
 #: model:ir.model,name:muk_dms.model_res_company
 msgid "Companies"
-msgstr ""
+msgstr "Компании"
 
 #. module: muk_dms
 #: model:ir.model.fields,field_description:muk_dms.field_muk_dms_directory__company
 #: model:ir.model.fields,field_description:muk_dms.field_muk_dms_file__company
 #: model:ir.model.fields,field_description:muk_dms.field_muk_dms_storage__company
 msgid "Company"
-msgstr ""
+msgstr "Компания"
 
 #. module: muk_dms
 #: model:ir.model,name:muk_dms.model_res_config_settings
 msgid "Config Settings"
-msgstr ""
+msgstr "Настройки конфигурации"
 
 #. module: muk_dms
 #: model:ir.ui.menu,name:muk_dms.cat_menu_muk_dms_config
 msgid "Configuration"
-msgstr ""
+msgstr "Конфигурация"
 
 #. module: muk_dms
 #: model:ir.model.fields,field_description:muk_dms.field_muk_dms_file__content
 msgid "Content"
-msgstr ""
+msgstr "Содержимое"
 
 #. module: muk_dms
 #: model:ir.model.fields,field_description:muk_dms.field_muk_dms_file__content_binary
 msgid "Content Binary"
-msgstr ""
+msgstr "Бинарное содержимое"
 
 #. module: muk_dms
 #: model:muk_dms.tag,name:muk_dms.tag_11_demo
 msgid "Contract"
-msgstr ""
+msgstr "Контракт"
 
 #. module: muk_dms
 #: model:muk_dms.category,name:muk_dms.category_03_demo
 msgid "Contracts"
-msgstr ""
+msgstr "Контракты"
 
 #. module: muk_dms
 #: model:ir.model.fields,field_description:muk_dms.field_muk_dms_storage__count_storage_directories
 msgid "Count Directories"
-msgstr ""
+msgstr "Число каталогов"
 
 #. module: muk_dms
 #: model:ir.model.fields,field_description:muk_dms.field_muk_dms_directory__count_elements
 msgid "Count Elements"
-msgstr ""
+msgstr "Число элементов"
 
 #. module: muk_dms
 #: model:ir.model.fields,field_description:muk_dms.field_muk_dms_directory__count_files
 #: model:ir.model.fields,field_description:muk_dms.field_muk_dms_storage__count_storage_files
 msgid "Count Files"
-msgstr ""
+msgstr "Число файлов"
 
 #. module: muk_dms
 #: model:ir.model.fields,field_description:muk_dms.field_muk_dms_directory__count_directories
 msgid "Count Subdirectories"
-msgstr ""
+msgstr "Число подкаталогов"
 
 #. module: muk_dms
 #: model_terms:ir.ui.view,arch_db:muk_dms.view_dms_directory_new_form
 #: model_terms:ir.ui.view,arch_db:muk_dms.view_dms_file_new_form
 #: model_terms:ir.ui.view,arch_db:muk_dms.view_dms_storage_new_form
 msgid "Create"
-msgstr ""
+msgstr "Создать"
 
 #. module: muk_dms
 #: model:ir.model.fields,field_description:muk_dms.field_muk_dms_directory__permission_create
 #: model:ir.model.fields,field_description:muk_dms.field_muk_dms_file__permission_create
 msgid "Create Access"
-msgstr ""
+msgstr "Создать доступ"
 
 #. module: muk_dms
 #: model_terms:ir.ui.view,arch_db:muk_dms.onboarding_directory_step
 msgid "Create Directory"
-msgstr ""
+msgstr "Создать директорию"
 
 #. module: muk_dms
 #: model_terms:ir.ui.view,arch_db:muk_dms.onboarding_storage_step
 msgid "Create Storage"
-msgstr ""
+msgstr "Создать хранилище"
 
 #. module: muk_dms
 #: model_terms:ir.actions.act_window,help:muk_dms.action_dms_category
 msgid "Create a new Category."
-msgstr ""
+msgstr "Создать новую категорию."
 
 #. module: muk_dms
 #: model_terms:ir.ui.view,arch_db:muk_dms.onboarding_storage_step
 msgid "Create a new Document Storage."
-msgstr ""
+msgstr "Создать новое хранилище документов."
 
 #. module: muk_dms
 #: model_terms:ir.ui.view,arch_db:muk_dms.onboarding_directory_step
 msgid "Create a new Root Directory."
-msgstr ""
+msgstr "Создать новый корневой каталог."
 
 #. module: muk_dms
 #: model_terms:ir.actions.act_window,help:muk_dms.action_dms_storage
 msgid "Create a new Storage object."
-msgstr ""
+msgstr "Создать новый объект хранилища."
 
 #. module: muk_dms
 #: model:ir.model.fields,field_description:muk_dms.field_muk_dms_category__create_uid
@@ -483,7 +483,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:muk_dms.field_muk_dms_storage__create_uid
 #: model:ir.model.fields,field_description:muk_dms.field_muk_dms_tag__create_uid
 msgid "Created by"
-msgstr ""
+msgstr "Создано"
 
 #. module: muk_dms
 #: model:ir.model.fields,field_description:muk_dms.field_muk_dms_category__create_date
@@ -492,7 +492,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:muk_dms.field_muk_dms_storage__create_date
 #: model:ir.model.fields,field_description:muk_dms.field_muk_dms_tag__create_date
 msgid "Created on"
-msgstr ""
+msgstr "Создано"
 
 #. module: muk_dms
 #: model_terms:ir.ui.view,arch_db:muk_dms.search_dms_directory
@@ -503,57 +503,57 @@ msgstr ""
 #. module: muk_dms
 #: model:ir.model.fields,field_description:muk_dms.field_muk_dms_file__save_type
 msgid "Current Save Type"
-msgstr ""
+msgstr "Текущий тип сохранения"
 
 #. module: muk_dms
 #: model:ir.model.fields,field_description:muk_dms.field_muk_dms_directory__custom_thumbnail
 #: model:ir.model.fields,field_description:muk_dms.field_muk_dms_file__custom_thumbnail
 #: model:ir.model.fields,field_description:muk_dms.field_muk_dms_mixins_thumbnail__custom_thumbnail
 msgid "Custom Thumbnail"
-msgstr ""
+msgstr "Настраиваемая миниатюра"
 
 #. module: muk_dms
 #: model:muk_dms.tag,name:muk_dms.tag_01_demo
 msgid "Customer"
-msgstr ""
+msgstr "Клиент"
 
 #. module: muk_dms
 #: model:muk_dms.tag,name:muk_dms.tag_08_demo
 msgid "Customer Invoice"
-msgstr ""
+msgstr "Счет клиента"
 
 #. module: muk_dms
 #: code:addons/muk_dms/models/storage.py:42
 #: selection:muk_dms.storage,save_type:0
 #, python-format
 msgid "Database"
-msgstr ""
+msgstr "База данных"
 
 #. module: muk_dms
 #: model_terms:ir.ui.view,arch_db:muk_dms.res_config_settings_view_form
 msgid "Define forbidden file extensions"
-msgstr ""
+msgstr "Определить запрещенные расширения файлов"
 
 #. module: muk_dms
 #: model_terms:ir.ui.view,arch_db:muk_dms.res_config_settings_view_form
 msgid "Define the maximum upload size of a file in MB"
-msgstr ""
+msgstr "Определите максимальный размер загрузки файла в МБ"
 
 #. module: muk_dms
 #: model:ir.model.fields,help:muk_dms.field_res_config_settings__documents_forbidden_extensions
 msgid "Defines a list of forbidden file extensions. (Example: 'exe,msi')"
-msgstr ""
+msgstr "Определяет список запрещенных расширений файлов. (Пример: 'exe, msi')"
 
 #. module: muk_dms
 #: model:ir.model.fields,help:muk_dms.field_res_config_settings__documents_binary_max_size
 msgid "Defines the maximum upload size in MB. Default (25MB)"
-msgstr ""
+msgstr "Определяет максимальный размер загрузки в МБ. По умолчанию (25 МБ)"
 
 #. module: muk_dms
 #: model:ir.model.fields,field_description:muk_dms.field_muk_dms_directory__permission_unlink
 #: model:ir.model.fields,field_description:muk_dms.field_muk_dms_file__permission_unlink
 msgid "Delete Access"
-msgstr ""
+msgstr "Удалить доступ"
 
 #. module: muk_dms
 #. openerp-web
@@ -570,7 +570,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:muk_dms.view_dms_storage_form
 #, python-format
 msgid "Directories"
-msgstr ""
+msgstr "Каталоги"
 
 #. module: muk_dms
 #: model_terms:ir.actions.act_window,help:muk_dms.action_dms_directories_all_directory
@@ -579,7 +579,8 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:muk_dms.action_dms_directory
 msgid "Directories can be used to structure and organize\n"
 "			files directly in Odoo."
-msgstr ""
+msgstr "Каталоги могут быть использованы для структурирования\n"
+"      и организации файлов непосредственно в Odoo"
 
 #. module: muk_dms
 #: model:ir.model,name:muk_dms.model_muk_dms_directory
@@ -587,7 +588,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:muk_dms.onboarding_directory_step
 #: model_terms:ir.ui.view,arch_db:muk_dms.view_dms_directory_form
 msgid "Directory"
-msgstr ""
+msgstr "Каталоги"
 
 #. module: muk_dms
 #: model:ir.model.fields,field_description:muk_dms.field_muk_dms_category__display_name
@@ -597,53 +598,53 @@ msgstr ""
 #: model:ir.model.fields,field_description:muk_dms.field_muk_dms_storage__display_name
 #: model:ir.model.fields,field_description:muk_dms.field_muk_dms_tag__display_name
 msgid "Display Name"
-msgstr ""
+msgstr "Отобразить имя"
 
 #. module: muk_dms
 #: model:ir.model,name:muk_dms.model_muk_dms_category
 msgid "Document Category"
-msgstr ""
+msgstr "Категория документа"
 
 #. module: muk_dms
 #: model:ir.model,name:muk_dms.model_muk_dms_tag
 msgid "Document Tag"
-msgstr ""
+msgstr "Метка документа"
 
 #. module: muk_dms
 #: model:ir.module.category,name:muk_dms.category_dms_security
 #: model:ir.ui.menu,name:muk_dms.main_menu_muk_dms
 msgid "Documents"
-msgstr ""
+msgstr "Документы"
 
 #. module: muk_dms
 #: model:ir.model.fields,field_description:muk_dms.field_res_company__documents_onboarding_directory_state
 msgid "Documents Onboarding Directory State"
-msgstr ""
+msgstr "Состояние каталога документов"
 
 #. module: muk_dms
 #: model:ir.model.fields,field_description:muk_dms.field_res_company__documents_onboarding_file_state
 msgid "Documents Onboarding File State"
-msgstr ""
+msgstr "Состояние файлов"
 
 #. module: muk_dms
 #: model:ir.model.fields,field_description:muk_dms.field_res_company__documents_onboarding_state
 msgid "Documents Onboarding State"
-msgstr ""
+msgstr "Состояние документов"
 
 #. module: muk_dms
 #: model:ir.model.fields,field_description:muk_dms.field_res_company__documents_onboarding_storage_state
 msgid "Documents Onboarding Storage State"
-msgstr ""
+msgstr "Состояние хранилища документов"
 
 #. module: muk_dms
 #: model:ir.model.fields,field_description:muk_dms.field_res_config_settings__module_muk_dms_attachment
 msgid "Documents Storage Location"
-msgstr ""
+msgstr "Расположение хранилища документов"
 
 #. module: muk_dms
 #: model:ir.model.fields,field_description:muk_dms.field_res_config_settings__module_muk_dms_attachment_rules
 msgid "Documents Storage Rules"
-msgstr ""
+msgstr "Правила хранилища документов"
 
 #. module: muk_dms
 #: selection:res.company,documents_onboarding_directory_state:0
@@ -651,38 +652,38 @@ msgstr ""
 #: selection:res.company,documents_onboarding_state:0
 #: selection:res.company,documents_onboarding_storage_state:0
 msgid "Done"
-msgstr ""
+msgstr "Готово"
 
 #. module: muk_dms
 #: model:ir.model.fields,field_description:muk_dms.field_res_config_settings__module_muk_archive
 msgid "Download Directories"
-msgstr ""
+msgstr "Каталоги загрузки"
 
 #. module: muk_dms
 #: model_terms:ir.ui.view,arch_db:muk_dms.view_dms_directory_kanban
 #: model_terms:ir.ui.view,arch_db:muk_dms.view_dms_file_kanban
 msgid "Dropdown menu"
-msgstr ""
+msgstr "Выпадающее меню"
 
 #. module: muk_dms
 #: model:ir.model.fields,field_description:muk_dms.field_muk_dms_file__is_lock_editor
 msgid "Editor"
-msgstr ""
+msgstr "Редактор"
 
 #. module: muk_dms
 #: model_terms:ir.ui.view,arch_db:muk_dms.view_dms_directory_form
 msgid "Elements"
-msgstr ""
+msgstr "Элементы"
 
 #. module: muk_dms
 #: model_terms:ir.ui.view,arch_db:muk_dms.res_config_settings_view_form
 msgid "Enables a new save option to store files into a filestore"
-msgstr ""
+msgstr "Включает новую опцию сохранения для хранения файлов в хранилище файлов"
 
 #. module: muk_dms
 #: model:ir.model.fields,help:muk_dms.field_res_config_settings__module_muk_dms_file
 msgid "Enables a new save option to store files into a filestore."
-msgstr ""
+msgstr "Включает новую опцию сохранения для хранения файлов в хранилище файлов."
 
 #. module: muk_dms
 #: model_terms:ir.ui.view,arch_db:muk_dms.res_config_settings_view_form
