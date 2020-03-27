@@ -10,6 +10,7 @@ msgstr ""
 "PO-Revision-Date: 2019-07-13 09:40+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -18,22 +19,22 @@ msgstr ""
 #. module: muk_utils
 #: model_terms:ir.ui.view,arch_db:muk_utils.res_config_settings_view_form
 msgid "<strong>Save</strong> this page before triggering the migration."
-msgstr ""
+msgstr "<strong> Сохраните </strong> эту страницу перед закрытием."
 
 #. module: muk_utils
 #: model_terms:ir.ui.view,arch_db:muk_utils.view_attachment_search
 msgid "All Data"
-msgstr ""
+msgstr "Все данные"
 
 #. module: muk_utils
 #: model_terms:ir.ui.view,arch_db:muk_utils.view_attachment_search
 msgid "Attached Document Field"
-msgstr ""
+msgstr "Поле прикрепленного документа"
 
 #. module: muk_utils
 #: model_terms:ir.ui.view,arch_db:muk_utils.view_attachment_search
 msgid "Attached Document Model"
-msgstr ""
+msgstr "Модель прикрепленного документа"
 
 #. module: muk_utils
 #: model:ir.model,name:muk_utils.model_ir_attachment
@@ -43,12 +44,12 @@ msgstr "Приложение"
 #. module: muk_utils
 #: model_terms:ir.ui.view,arch_db:muk_utils.res_config_settings_view_form
 msgid "Attachment storage location"
-msgstr ""
+msgstr "Место хранения"
 
 #. module: muk_utils
 #: model:ir.model.fields,help:muk_utils.field_res_config_settings__attachment_location
 msgid "Attachment storage location."
-msgstr ""
+msgstr "Место хранения."
 
 #. module: muk_utils
 #: model_terms:ir.ui.view,arch_db:muk_utils.view_attachment_search
@@ -64,7 +65,7 @@ msgstr "Базовый"
 #: model:ir.model.fields,field_description:muk_utils.field_muk_utils_mixins_groups__child_groups
 #: model_terms:ir.ui.view,arch_db:muk_utils.view_mixins_groups_form
 msgid "Child Groups"
-msgstr ""
+msgstr "Дочерние группы"
 
 #. module: muk_utils
 #: model:ir.model,name:muk_utils.model_res_config_settings
@@ -82,17 +83,17 @@ msgstr "Отображаемое Имя"
 #: model:ir.model.fields,field_description:muk_utils.field_muk_utils_mixins_groups__explicit_users
 #: model_terms:ir.ui.view,arch_db:muk_utils.view_mixins_groups_form
 msgid "Explicit Users"
-msgstr ""
+msgstr "Определенные пользователи"
 
 #. module: muk_utils
 #: model_terms:ir.ui.view,arch_db:muk_utils.view_attachment_search
 msgid "Field Data"
-msgstr ""
+msgstr "Данные"
 
 #. module: muk_utils
 #: model_terms:ir.ui.view,arch_db:muk_utils.res_config_settings_view_form
 msgid "Force Storage Migration"
-msgstr ""
+msgstr "Принудительное перемещение"
 
 #. module: muk_utils
 #: model_terms:ir.ui.view,arch_db:muk_utils.view_mixins_groups_form
@@ -102,7 +103,7 @@ msgstr "Группа"
 #. module: muk_utils
 #: model:ir.model,name:muk_utils.model_muk_utils_mixins_groups
 msgid "Group Mixin"
-msgstr ""
+msgstr "Группа Mixin"
 
 #. module: muk_utils
 #: model:ir.model.fields,field_description:muk_utils.field_muk_utils_mixins_groups__name
@@ -112,7 +113,7 @@ msgstr "Наименование Группы"
 #. module: muk_utils
 #: model:ir.model.fields,field_description:muk_utils.field_muk_utils_mixins_groups__users
 msgid "Group Users"
-msgstr ""
+msgstr "Пользователи группы"
 
 #. module: muk_utils
 #: model:ir.model.fields,field_description:muk_utils.field_muk_utils_mixins_groups__groups
@@ -124,7 +125,7 @@ msgstr "Группы"
 #. module: muk_utils
 #: model:ir.model,name:muk_utils.model_muk_utils_mixins_hierarchy
 msgid "Hierarchy Mixin"
-msgstr ""
+msgstr "Иерархия Mixin"
 
 #. module: muk_utils
 #: model:ir.model.fields,field_description:muk_utils.field_muk_utils_mixins_groups__id
@@ -143,65 +144,65 @@ msgstr "Последнее изменение"
 #. module: muk_utils
 #: model:ir.actions.server,name:muk_utils.action_attachment_migrate
 msgid "Migrate"
-msgstr ""
+msgstr "Переместить"
 
 #. module: muk_utils
 #: code:addons/muk_utils/models/ir_attachment.py:87
 #, python-format
 msgid "Only administrators can execute this action."
-msgstr ""
+msgstr "Только администраторы могут выполнить это действие."
 
 #. module: muk_utils
 #: model:ir.model.fields,field_description:muk_utils.field_muk_utils_mixins_groups__parent_group
 msgid "Parent Group"
-msgstr ""
+msgstr "Родительская группа"
 
 #. module: muk_utils
 #: model:ir.model.fields,field_description:muk_utils.field_muk_utils_mixins_groups__parent_path
 #: model:ir.model.fields,field_description:muk_utils.field_muk_utils_mixins_hierarchy__parent_path
 msgid "Parent Path"
-msgstr ""
+msgstr "Родительский путь"
 
 #. module: muk_utils
 #: model:ir.model.fields,field_description:muk_utils.field_muk_utils_mixins_hierarchy__parent_path_json
 msgid "Path Json"
-msgstr ""
+msgstr "Путь Json"
 
 #. module: muk_utils
 #: model:ir.model.fields,field_description:muk_utils.field_muk_utils_mixins_hierarchy__parent_path_names
 msgid "Path Names"
-msgstr ""
+msgstr "Имена путей"
 
 #. module: muk_utils
 #: model:ir.model,name:muk_utils.model_muk_utils_scss_editor
 msgid "Scss Editor"
-msgstr ""
+msgstr "Scss Редактор"
 
 #. module: muk_utils
 #: model_terms:ir.ui.view,arch_db:muk_utils.res_config_settings_view_form
 #: model_terms:ir.ui.view,arch_db:muk_utils.view_attachment_form
 msgid "Storage"
-msgstr ""
+msgstr "Место хранения"
 
 #. module: muk_utils
 #: model:ir.model.fields,field_description:muk_utils.field_res_config_settings__attachment_location
 msgid "Storage Location"
-msgstr ""
+msgstr "Место хранения"
 
 #. module: muk_utils
 #: model:ir.model.fields,field_description:muk_utils.field_res_config_settings__attachment_location_changed
 msgid "Storage Location Changed"
-msgstr ""
+msgstr "Место хранения изменено"
 
 #. module: muk_utils
 #: model:ir.model,name:muk_utils.model_ir_config_parameter
 msgid "System Parameter"
-msgstr ""
+msgstr "Системный параметр"
 
 #. module: muk_utils
 #: sql_constraint:muk_utils.mixins.groups:0
 msgid "The name of the group must be unique!"
-msgstr ""
+msgstr "Имя группы должно быть уникальным!"
 
 #. module: muk_utils
 #: model:ir.model.fields,field_description:muk_utils.field_muk_utils_mixins_groups__count_users

@@ -10,6 +10,7 @@ msgstr ""
 "PO-Revision-Date: 2019-07-12 23:45+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -18,7 +19,7 @@ msgstr ""
 #. module: muk_autovacuum
 #: model_terms:ir.ui.view,arch_db:muk_autovacuum.view_autovacuum_rule_form
 msgid "<code>Warning</code>: Warning Exception to use with <code>raise</code>"
-msgstr ""
+msgstr "<code>Предупреждение</code>: Предупреждение использования исключения с <code>raise</code>"
 
 #. module: muk_autovacuum
 #: model_terms:ir.ui.view,arch_db:muk_autovacuum.view_autovacuum_rule_form
@@ -28,32 +29,32 @@ msgstr ""
 #. module: muk_autovacuum
 #: model_terms:ir.ui.view,arch_db:muk_autovacuum.view_autovacuum_rule_form
 msgid "<code>date_format</code>, <code>datetime_format</code>: server date and time formats"
-msgstr ""
+msgstr "<code>date_format</code>, <code>datetime_format</code>: серверные форматы даты и времени"
 
 #. module: muk_autovacuum
 #: model_terms:ir.ui.view,arch_db:muk_autovacuum.view_autovacuum_rule_form
 msgid "<code>env</code>: Odoo Environment on which the rule is triggered"
-msgstr ""
+msgstr "<code>env</code>: Среда Odoo, в которой срабатывает правило"
 
 #. module: muk_autovacuum
 #: model_terms:ir.ui.view,arch_db:muk_autovacuum.view_autovacuum_rule_form
 msgid "<code>logger.info(message)</code>: Python logging framework"
-msgstr ""
+msgstr "<code>logger.info(message)</code>: Среда регистрации Python"
 
 #. module: muk_autovacuum
 #: model_terms:ir.ui.view,arch_db:muk_autovacuum.view_autovacuum_rule_form
 msgid "<code>model</code>: Odoo Model of the record on which the rule is triggered"
-msgstr ""
+msgstr "<code>model</code>: Odoo Модель записи, для которой запущено правило"
 
 #. module: muk_autovacuum
 #: model_terms:ir.ui.view,arch_db:muk_autovacuum.view_autovacuum_rule_form
 msgid "<code>time</code>, <code>datetime</code>, <code>dateutil</code>, <code>timezone</code>: useful Python libraries"
-msgstr ""
+msgstr "<code>time</code>, <code>datetime</code>, <code>dateutil</code>, <code>timezone</code>: полезные библиотеки Python"
 
 #. module: muk_autovacuum
 #: model_terms:ir.ui.view,arch_db:muk_autovacuum.view_autovacuum_rule_form
 msgid "<code>uid</code>, <code>user</code>: User on which the rule is triggered"
-msgstr ""
+msgstr "<code>uid</code>, <code>user</code>: Пользователь, на котором сработало правило"
 
 #. module: muk_autovacuum
 #: model:ir.model.fields,field_description:muk_autovacuum.field_muk_autovacuum_rules__active
@@ -83,22 +84,22 @@ msgstr ""
 #. module: muk_autovacuum
 #: model:ir.model.fields,field_description:muk_autovacuum.field_muk_autovacuum_rules__code
 msgid "Code"
-msgstr ""
+msgstr "Код"
 
 #. module: muk_autovacuum
 #: selection:muk_autovacuum.rules,state:0
 msgid "Code Based"
-msgstr ""
+msgstr "Основа кода"
 
 #. module: muk_autovacuum
 #: model_terms:ir.ui.view,arch_db:muk_autovacuum.view_autovacuum_rule_form
 msgid "Code Settings"
-msgstr ""
+msgstr "Настройки кода"
 
 #. module: muk_autovacuum
 #: model:ir.model.fields,help:muk_autovacuum.field_muk_autovacuum_rules__code
 msgid "Code which will be executed during the clean up."
-msgstr ""
+msgstr "Код, который будет выполнен в конце."
 
 #. module: muk_autovacuum
 #: model:ir.model.fields,field_description:muk_autovacuum.field_muk_autovacuum_rules__create_uid
@@ -113,23 +114,23 @@ msgstr "Создан"
 #. module: muk_autovacuum
 #: selection:muk_autovacuum.rules,time_type:0
 msgid "Days"
-msgstr ""
+msgstr "Дни"
 
 #. module: muk_autovacuum
 #: model:ir.model.fields,help:muk_autovacuum.field_muk_autovacuum_rules__domain
 msgid "Delete all records which match the domain."
-msgstr ""
+msgstr "Удалить все записи, которые соответствуют домену."
 
 #. module: muk_autovacuum
 #: model:ir.model.fields,help:muk_autovacuum.field_muk_autovacuum_rules__time
 msgid "Delete older data than x."
-msgstr ""
+msgstr "Удалить более старые данные, чем х."
 
 #. module: muk_autovacuum
 #: model:ir.model.fields,help:muk_autovacuum.field_muk_autovacuum_rules__size
 #: model:ir.model.fields,help:muk_autovacuum.field_muk_autovacuum_rules__size_parameter_value
 msgid "Delete records with am index greater than x."
-msgstr ""
+msgstr "Удалить записи с индексом am больше, чем х."
 
 #. module: muk_autovacuum
 #: model:ir.model.fields,field_description:muk_autovacuum.field_muk_autovacuum_rules__display_name
@@ -154,12 +155,12 @@ msgstr "Домен"
 #. module: muk_autovacuum
 #: selection:muk_autovacuum.rules,state:0
 msgid "Domain Based"
-msgstr ""
+msgstr "Домен"
 
 #. module: muk_autovacuum
 #: model_terms:ir.ui.view,arch_db:muk_autovacuum.view_autovacuum_rule_form
 msgid "Domain Settings"
-msgstr ""
+msgstr "Нстройки домена"
 
 #. module: muk_autovacuum
 #: model_terms:ir.ui.view,arch_db:muk_autovacuum.view_autovacuum_rule_form
@@ -169,7 +170,7 @@ msgstr "Введите код Python здесь. Помощь о Python дост
 #. module: muk_autovacuum
 #: selection:muk_autovacuum.rules,size_type:0
 msgid "Fixed Value"
-msgstr ""
+msgstr "Фиксированное занчение"
 
 #. module: muk_autovacuum
 #: code:addons/muk_autovacuum/models/ir_autovacuum.py:64
@@ -209,12 +210,12 @@ msgstr "Помощь"
 #. module: muk_autovacuum
 #: model_terms:ir.ui.view,arch_db:muk_autovacuum.view_autovacuum_rule_form
 msgid "Help with Python expressions"
-msgstr ""
+msgstr "Помощь с Python выражениями"
 
 #. module: muk_autovacuum
 #: selection:muk_autovacuum.rules,time_type:0
 msgid "Hours"
-msgstr ""
+msgstr "Часы"
 
 #. module: muk_autovacuum
 #: model:ir.model.fields,field_description:muk_autovacuum.field_muk_autovacuum_rules__id
@@ -245,7 +246,7 @@ msgstr "Последнее обновление"
 #. module: muk_autovacuum
 #: selection:muk_autovacuum.rules,time_type:0
 msgid "Minutes"
-msgstr ""
+msgstr "Минуты"
 
 #. module: muk_autovacuum
 #: model:ir.model.fields,field_description:muk_autovacuum.field_muk_autovacuum_rules__model
@@ -266,7 +267,7 @@ msgstr ""
 #. module: muk_autovacuum
 #: selection:muk_autovacuum.rules,time_type:0
 msgid "Months"
-msgstr ""
+msgstr "Месяцы"
 
 #. module: muk_autovacuum
 #: model:ir.model.fields,field_description:muk_autovacuum.field_muk_autovacuum_rules__name
@@ -276,43 +277,43 @@ msgstr "Название"
 #. module: muk_autovacuum
 #: model:ir.model.fields,field_description:muk_autovacuum.field_muk_autovacuum_rules__only_inactive
 msgid "Only Archived"
-msgstr ""
+msgstr "Только в архиве"
 
 #. module: muk_autovacuum
 #: model:ir.model.fields,field_description:muk_autovacuum.field_muk_autovacuum_rules__only_attachments
 msgid "Only Attachments"
-msgstr ""
+msgstr "Только вложения"
 
 #. module: muk_autovacuum
 #: model:ir.model.fields,help:muk_autovacuum.field_muk_autovacuum_rules__only_inactive
 msgid "Only delete archived records."
-msgstr ""
+msgstr "Удалить только архивные записи."
 
 #. module: muk_autovacuum
 #: model:ir.model.fields,help:muk_autovacuum.field_muk_autovacuum_rules__only_attachments
 msgid "Only delete record attachments."
-msgstr ""
+msgstr "Удалить только вложения."
 
 #. module: muk_autovacuum
 #: model:ir.model.fields,help:muk_autovacuum.field_muk_autovacuum_rules__size_order
 msgid "Order by which the index is defined."
-msgstr ""
+msgstr "Порядок, по которому определяется индекс."
 
 #. module: muk_autovacuum
 #: model:ir.model.fields,field_description:muk_autovacuum.field_muk_autovacuum_rules__protect_starred
 msgid "Protect Starred"
-msgstr ""
+msgstr "Защитить помеченные"
 
 #. module: muk_autovacuum
 #: model:ir.model.fields,field_description:muk_autovacuum.field_muk_autovacuum_rules__state
 msgid "Rule Type"
-msgstr ""
+msgstr "Тип правила"
 
 #. module: muk_autovacuum
 #: code:addons/muk_autovacuum/models/rules.py:330
 #, python-format
 msgid "Rule validation has failed!"
-msgstr ""
+msgstr "Проверка правил не удалась!"
 
 #. module: muk_autovacuum
 #: model:ir.model.fields,field_description:muk_autovacuum.field_muk_autovacuum_rules__sequence
@@ -327,12 +328,12 @@ msgstr "Размер"
 #. module: muk_autovacuum
 #: selection:muk_autovacuum.rules,state:0
 msgid "Size Based"
-msgstr ""
+msgstr "Размер на основе"
 
 #. module: muk_autovacuum
 #: model:ir.model.fields,field_description:muk_autovacuum.field_muk_autovacuum_rules__size_order
 msgid "Size Order"
-msgstr ""
+msgstr "Размер"
 
 #. module: muk_autovacuum
 #: model_terms:ir.ui.view,arch_db:muk_autovacuum.view_autovacuum_rule_form
@@ -342,23 +343,23 @@ msgstr ""
 #. module: muk_autovacuum
 #: model:ir.model.fields,field_description:muk_autovacuum.field_muk_autovacuum_rules__size_type
 msgid "Size Type"
-msgstr ""
+msgstr "Настройки размера"
 
 #. module: muk_autovacuum
 #: model:ir.model.fields,field_description:muk_autovacuum.field_muk_autovacuum_rules__size_parameter_value
 msgid "Size Value"
-msgstr ""
+msgstr "Значение размера"
 
 #. module: muk_autovacuum
 #: model:ir.model.fields,field_description:muk_autovacuum.field_muk_autovacuum_rules__size_parameter
 #: selection:muk_autovacuum.rules,size_type:0
 msgid "System Parameter"
-msgstr ""
+msgstr "Системный параметр"
 
 #. module: muk_autovacuum
 #: model:ir.model.fields,field_description:muk_autovacuum.field_muk_autovacuum_rules__time
 msgid "Time"
-msgstr ""
+msgstr "Время"
 
 #. module: muk_autovacuum
 #: selection:muk_autovacuum.rules,state:0
@@ -373,12 +374,12 @@ msgstr ""
 #. module: muk_autovacuum
 #: model_terms:ir.ui.view,arch_db:muk_autovacuum.view_autovacuum_rule_form
 msgid "Time Settings"
-msgstr ""
+msgstr "Настройки времени"
 
 #. module: muk_autovacuum
 #: model:ir.model.fields,field_description:muk_autovacuum.field_muk_autovacuum_rules__time_type
 msgid "Time Unit"
-msgstr ""
+msgstr "Единица времени"
 
 #. module: muk_autovacuum
 #: model_terms:ir.ui.view,arch_db:muk_autovacuum.view_autovacuum_rule_form
@@ -388,15 +389,15 @@ msgstr "Различные поля могут использовать код P
 #. module: muk_autovacuum
 #: selection:muk_autovacuum.rules,time_type:0
 msgid "Weeks"
-msgstr ""
+msgstr "Недели"
 
 #. module: muk_autovacuum
 #: selection:muk_autovacuum.rules,time_type:0
 msgid "Years"
-msgstr ""
+msgstr "Года"
 
 #. module: muk_autovacuum
 #: model_terms:ir.ui.view,arch_db:muk_autovacuum.view_autovacuum_rule_form
 msgid "e.g. Delete Logs after 30 Days"
-msgstr ""
+msgstr "например, удалить журналы через 30 дней"
 
