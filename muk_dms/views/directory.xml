@@ -72,7 +72,7 @@
 	      	Click to add a new file.
 	    </p>
 	    <p>
-			Files are used to save content directly in Odoo.
+			Файлы используются для сохранения контента непосредственно в Odoo.
 	    </p>
     </field>
 </record>
@@ -126,7 +126,7 @@
 	      	Click to add a new file.
 	    </p>
 	    <p>
-			Files are used to save content directly in Odoo.
+			Файлы используются для сохранения контента непосредственно в Odoo.
 	    </p>
     </field>
 </record>
