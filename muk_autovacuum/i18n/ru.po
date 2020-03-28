@@ -160,7 +160,7 @@ msgstr "Домен"
 #. module: muk_autovacuum
 #: model_terms:ir.ui.view,arch_db:muk_autovacuum.view_autovacuum_rule_form
 msgid "Domain Settings"
-msgstr "Нстройки домена"
+msgstr "Настройки домена"
 
 #. module: muk_autovacuum
 #: model_terms:ir.ui.view,arch_db:muk_autovacuum.view_autovacuum_rule_form
@@ -170,7 +170,7 @@ msgstr "Введите код Python здесь. Помощь о Python дост
 #. module: muk_autovacuum
 #: selection:muk_autovacuum.rules,size_type:0
 msgid "Fixed Value"
-msgstr "Фиксированное занчение"
+msgstr "Фиксированное значение"
 
 #. module: muk_autovacuum
 #: code:addons/muk_autovacuum/models/ir_autovacuum.py:64
@@ -338,12 +338,12 @@ msgstr "Размер"
 #. module: muk_autovacuum
 #: model_terms:ir.ui.view,arch_db:muk_autovacuum.view_autovacuum_rule_form
 msgid "Size Settings"
-msgstr ""
+msgstr "Настройки размера"
 
 #. module: muk_autovacuum
 #: model:ir.model.fields,field_description:muk_autovacuum.field_muk_autovacuum_rules__size_type
 msgid "Size Type"
-msgstr "Настройки размера"
+msgstr "Тип размера"
 
 #. module: muk_autovacuum
 #: model:ir.model.fields,field_description:muk_autovacuum.field_muk_autovacuum_rules__size_parameter_value
@@ -364,12 +364,12 @@ msgstr "Время"
 #. module: muk_autovacuum
 #: selection:muk_autovacuum.rules,state:0
 msgid "Time Based"
-msgstr ""
+msgstr "Временной"
 
 #. module: muk_autovacuum
 #: model:ir.model.fields,field_description:muk_autovacuum.field_muk_autovacuum_rules__time_field
 msgid "Time Field"
-msgstr ""
+msgstr "Поле времени"
 
 #. module: muk_autovacuum
 #: model_terms:ir.ui.view,arch_db:muk_autovacuum.view_autovacuum_rule_form
