@@ -277,7 +277,7 @@ msgstr "Поделиться"
 #: code:addons/muk_web_utils/static/src/js/fields/module.js:74
 #, python-format
 msgid "Store"
-msgstr "Магазин приложение"
+msgstr "Магазин приложений"
 
 #. module: muk_web_utils
 #. openerp-web
@@ -327,4 +327,3 @@ msgstr "поделился ссылкой с Вами!"
 #, python-format
 msgid "shared a message with you!"
 msgstr "поделился сообщением с Вами!"
-

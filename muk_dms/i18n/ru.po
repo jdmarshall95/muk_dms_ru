@@ -280,6 +280,11 @@ msgid "Automatic Thumbnails"
 msgstr "Автоматические миниатюры"
 
 #. module: muk_dms
+#: model:ir.model.fields,field_description:muk_dms.field_res_config_settings__module_muk_dms_thumbnails
+msgid "Automatic Thumbnails"
+msgstr "Автоматические миниатюры"
+
+#. module: muk_dms
 #: model:ir.model.fields,field_description:muk_dms.field_res_config_settings__module_muk_dms_widget
 msgid "Binary Widget Support"
 msgstr "Поддержка двоичных виджетов"
@@ -658,6 +663,11 @@ msgstr "Готово"
 #: model:ir.model.fields,field_description:muk_dms.field_res_config_settings__module_muk_archive
 msgid "Download Directories"
 msgstr "Каталоги загрузки"
+
+#. module: muk_dms
+#: model:ir.model.fields,field_description:muk_dms.field_res_config_settings__module_muk_dms_thumbnails
+msgid "File Thumbnail"
+msgstr "Миниатюры файлов"
 
 #. module: muk_dms
 #: model_terms:ir.ui.view,arch_db:muk_dms.view_dms_directory_kanban
@@ -1158,7 +1168,7 @@ msgstr "Продажи"
 #: model:ir.model.fields,field_description:muk_dms.field_muk_dms_storage__save_type
 #: model_terms:ir.ui.view,arch_db:muk_dms.view_dms_storage_search
 msgid "Save Type"
-msgstr "Сохранить тип"
+msgstr "Тип хранения"
 
 #. module: muk_dms
 #: model:ir.model.fields,field_description:muk_dms.field_muk_dms_directory__size
