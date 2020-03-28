@@ -96,7 +96,7 @@ msgstr "Наименование Группы"
 #. module: muk_security
 #: model:ir.model.fields,field_description:muk_security.field_muk_security_access_groups__users
 msgid "Group Users"
-msgstr "Пользователи группы"
+msgstr "Пользователи Группы"
 
 #. module: muk_security
 #: model:ir.model.fields,field_description:muk_security.field_muk_security_access_groups__groups
