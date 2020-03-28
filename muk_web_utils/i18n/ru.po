@@ -67,7 +67,7 @@ msgstr "Отмена"
 #: code:addons/muk_web_utils/static/src/xml/module.xml:30
 #, python-format
 msgid "Click on the download button to be redirected to the store and download the corresponding module."
-msgstr "Нажмите на кнопку загрузки, чтобы перейти в магазин приложений и загрузить соответствующий модуль."
+msgstr "Нажмите на кнопку загрузки, чтобы перейти в приложения и загрузить соответствующий модуль."
 
 #. module: muk_web_utils
 #. openerp-web
@@ -218,7 +218,7 @@ msgid "Maximum allowed file size in megabytes. Note that this setting only adjus
 "            be restricted in several places. Note that a large file size limit and therefore\n"
 "            large files in your system can significantly limit performance."
 msgstr "Максимально допустимый размер файла в мегабайтах. Обратите внимание, что эти настройки регулируют только
-"			 бинарные виджеты. Максимальный размер файла на Вашем сервере, вероятно, может быть\n"
+"			 бинарные виджеты. Максимальный размер файла на Вашем сервере может быть\n"
 "            ограничен в нескольких местах. Обратите внимание на ограничение по размеру файла,\n"
 "            большие файлы в Вашей системе могут значительно снизить производительность."
 

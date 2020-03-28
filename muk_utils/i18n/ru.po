@@ -132,7 +132,7 @@ msgstr "Иерархия Mixin"
 #: model:ir.model.fields,field_description:muk_utils.field_muk_utils_mixins_hierarchy__id
 #: model:ir.model.fields,field_description:muk_utils.field_muk_utils_scss_editor__id
 msgid "ID"
-msgstr "Номер"
+msgstr ""
 
 #. module: muk_utils
 #: model:ir.model.fields,field_description:muk_utils.field_muk_utils_mixins_groups____last_update
