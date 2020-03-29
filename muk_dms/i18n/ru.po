@@ -185,6 +185,11 @@ msgid "All Files"
 msgstr "Все файлы"
 
 #. module: muk_dms
+#: model_terms:ir.ui.view,arch_db:muk_dms.search_dms_file
+msgid "Archived Files"
+msgstr "Файлы в архиве"
+
+#. module: muk_dms
 #: model:ir.model.fields,help:muk_dms.field_res_config_settings__module_muk_dms_attachment_rules
 msgid "Allows attachments to be automatically placed in the right directory."
 msgstr "Позволяет автоматически размещать вложения в нужном каталоге."
