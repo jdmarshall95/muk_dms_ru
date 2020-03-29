@@ -508,7 +508,7 @@ msgstr "Создано"
 #: model_terms:ir.ui.view,arch_db:muk_dms.search_dms_directory
 #: model_terms:ir.ui.view,arch_db:muk_dms.search_dms_file
 msgid "Creation Date"
-msgstr ""
+msgstr "Дата создания"
 
 #. module: muk_dms
 #: model:ir.model.fields,field_description:muk_dms.field_muk_dms_file__save_type
