@@ -1474,3 +1474,83 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:muk_dms.document_onboarding_file_panel
 msgid "res.company"
 msgstr ""
+
+#. module: muk_dms
+#: model_terms:ir.ui.view,arch_db:muk_dms.res_config_settings_view_form
+msgid "Automatically create file thumbnails based on the content"
+msgstr "Автоматически создавать миниатюры файлов на основе содержимого."
+
+#. module: muk_dms
+#: model:ir.model.fields,help:muk_dms.field_res_config_settings__module_muk_dms_thumbnails
+msgid "Automatically create file thumbnails based on the content."
+msgstr "Автоматически создавать миниатюры файлов на основе содержимого."
+
+#. module: muk_dms
+#: model_terms:ir.ui.view,arch_db:muk_dms.res_config_settings_view_form
+msgid "Allows the user to use documents as input for any binary field"
+msgstr "Позволяет пользователю использовать документы в качестве ввода"
+
+#. module: muk_dms
+#: model:ir.model.fields,help:muk_dms.field_res_config_settings__module_muk_dms_widget
+msgid "Allows the user to use documents as input for any binary field"
+msgstr "Позволяет пользователю использовать документы в качестве ввода"
+
+#. module: muk_dms
+#: model_terms:ir.ui.view,arch_db:muk_dms.res_config_settings_view_form
+msgid "Allows to download directories as a archive file"
+msgstr "Позволяет скачивать каталоги в виде архива"
+
+#. module: muk_dms
+#: model:ir.model.fields,help:muk_dms.field_res_config_settings__module_muk_archive
+msgid "Allows to download directories as a archive file"
+msgstr "Позволяет скачивать каталоги в виде архива"
+
+#. module: muk_dms
+#: model_terms:ir.ui.view,arch_db:muk_dms.res_config_settings_view_form
+msgid "Enables the Document Finder"
+msgstr "Включает поиск документов"
+
+#. module: muk_dms
+#: model:ir.model.fields,help:muk_dms.field_res_config_settings__module_muk_dms_finder
+msgid "Enables the Document Finder"
+msgstr "Включает поиск документов"
+
+#. module: muk_dms
+#: model_terms:ir.ui.view,arch_db:muk_dms.res_config_settings_view_form
+msgid "Allows documents to be used as attachments"
+msgstr "Позволяет использовать документы в качестве вложений"
+
+#. module: muk_dms
+#: model:ir.model.fields,help:muk_dms.field_res_config_settings__module_muk_dms_attachment_wizard
+msgid "Allows documents to be used as attachments"
+msgstr "Позволяет использовать документы в качестве вложений"
+
+#. module: muk_dms
+#: model:ir.model.fields,field_description:muk_dms.field_res_config_settings__module_muk_dms_actions
+msgid "Document Actions"
+msgstr "Действия с документами"
+
+#. module: muk_dms
+#: model_terms:ir.ui.view,arch_db:muk_dms.res_config_settings_view_form
+msgid "Create custom file operations"
+msgstr "Создаёт пользовательские файловые операции"
+
+#. module: muk_dms
+#: model:ir.model.fields,field_description:muk_dms.field_res_config_settings__module_muk_dms_actions
+msgid "Create custom file operations"
+msgstr "Создаёт пользовательские файловые операции"
+
+#. module: muk_dms
+#: model:ir.model.fields,field_description:muk_dms.field_res_config_settings__module_muk_dms_users
+msgid "Personal Documents"
+msgstr "Персональные документы"
+
+#. module: muk_dms
+#: model_terms:ir.ui.view,arch_db:muk_dms.res_config_settings_view_form
+msgid "Automatic creation of user directories"
+msgstr "Автоматически создаёт пользовательские каталоги"
+
+#. module: muk_dms
+#: model:ir.model.fields,field_description:muk_dms.field_res_config_settings__module_muk_dms_users
+msgid "Automatic creation of user directories"
+msgstr "Автоматически создаёт пользовательские каталоги"
