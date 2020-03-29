@@ -113,7 +113,7 @@ msgstr "Корневой каталог должен иметь корневое
 #. module: muk_dms
 #: model:ir.model.fields,field_description:muk_dms.field_res_config_settings__module_muk_dms_access
 msgid "Access Control"
-msgstr "Вообще ни разу не Контроль доступа"
+msgstr "Контроль доступа"
 
 #. module: muk_dms
 #: model_terms:ir.ui.view,arch_db:muk_dms.view_dms_directory_form
