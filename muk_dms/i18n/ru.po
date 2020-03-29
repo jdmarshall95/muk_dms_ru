@@ -711,6 +711,11 @@ msgid "Enables a new save option to store files into large objects."
 msgstr "Включает новую опцию сохранения для хранения файлов в больших объектах."
 
 #. module: muk_dms
+#: model:ir.model.fields,help:muk_dms.field_res_config_settings__module_muk_dms_view
+msgid "Activates the documents tree view."
+msgstr "Активирует вид дерева для документов."
+
+#. module: muk_dms
 #: model:ir.model.fields,help:muk_dms.field_res_config_settings__module_muk_dms_finder
 msgid "Enables the Document Finder."
 msgstr "Включает поиск документов."
