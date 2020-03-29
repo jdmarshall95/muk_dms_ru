@@ -726,6 +726,11 @@ msgid "Enables the Document Finder."
 msgstr "Включает поиск документов."
 
 #. module: muk_dms
+#: model_terms:ir.ui.view,arch_db:muk_dms.field_res_config_settings__module_muk_dms_finder
+msgid "Enables the Document Finder"
+msgstr "Включает поиск документов"
+
+#. module: muk_dms
 #: model_terms:ir.ui.view,arch_db:muk_dms.res_config_settings_view_form
 msgid "Enables version control for files"
 msgstr "Включает контроль версий для файлов"
