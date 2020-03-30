@@ -134,7 +134,7 @@ msgstr "Активирует файловую корзину для восста
 #. module: muk_dms
 #: model:ir.model.fields,help:muk_dms.field_res_config_settings__module_muk_dms_trash
 msgid "Activates a file trash to restore deleted files."
-msgstr "Активирует файловую корзину для восстановления удаленных файлов"
+msgstr "Активирует файловую корзину для восстановления удаленных файлов."
 
 #. module: muk_dms
 #: model_terms:ir.ui.view,arch_db:muk_dms.res_config_settings_view_form
@@ -144,7 +144,7 @@ msgstr "Активирует функцию предварительного п�
 #. module: muk_dms
 #: model:ir.model.fields,help:muk_dms.field_res_config_settings__module_muk_dms_preview
 msgid "Activates the preview function on files."
-msgstr "Активирует функцию предварительного просмотра файлов"
+msgstr "Активирует функцию предварительного просмотра файлов."
 
 #. module: muk_dms
 #: model:ir.model.fields,field_description:muk_dms.field_muk_dms_category__active
@@ -709,16 +709,6 @@ msgstr "Включает новую опцию сохранения для хр�
 #: model:ir.model.fields,help:muk_dms.field_res_config_settings__module_muk_dms_lobject
 msgid "Enables a new save option to store files into large objects."
 msgstr "Включает новую опцию сохранения для хранения файлов в больших объектах."
-
-#. module: muk_dms
-#: model_terms:ir.ui.view,arch_db:muk_dms.field_res_config_settings__module_muk_dms_view
-msgid "Activates the documents tree view"
-msgstr "Активирует вид дерева для документов"
-
-#. module: muk_dms
-#: model:ir.model.fields,help:muk_dms.field_res_config_settings__module_muk_dms_view
-msgid "Activates the documents tree view."
-msgstr "Активирует вид дерева для документов."
 
 #. module: muk_dms
 #: model:ir.model.fields,help:muk_dms.field_res_config_settings__module_muk_dms_finder
@@ -1556,6 +1546,11 @@ msgid "Create custom file operations"
 msgstr "Создаёт пользовательские файловые операции"
 
 #. module: muk_dms
+#: model:ir.model.fields,help:muk_dms.field_res_config_settings__module_muk_dms_actions
+msgid "Create custom file operations"
+msgstr "Создаёт пользовательские файловые операции."
+
+#. module: muk_dms
 #: model:ir.model.fields,field_description:muk_dms.field_res_config_settings__module_muk_dms_users
 msgid "Personal Documents"
 msgstr "Персональные документы"
@@ -1569,3 +1564,48 @@ msgstr "Автоматически создаёт пользовательски
 #: model:ir.model.fields,field_description:muk_dms.field_res_config_settings__module_muk_dms_users
 msgid "Automatic creation of user directories"
 msgstr "Автоматически создаёт пользовательские каталоги"
+
+#. module: muk_dms
+#: model:ir.model.fields,help:muk_dms.field_res_config_settings__module_muk_dms_users
+msgid "Automatic creation of user directories"
+msgstr "Автоматически создаёт пользовательские каталоги."
+
+#. module: muk_dms
+#: model:ir.model.fields,field_description:muk_dms.field_res_config_settings__module_muk_dms_index
+msgid "File Indexation"
+msgstr "Индексация файлов"
+
+#. module: muk_dms
+#: model_terms:ir.ui.view,arch_db:muk_dms.res_config_settings_view_form
+msgid "Automatically create a file index based on the content"
+msgstr "Автоматически создёт индекс файла на основе содержимого"
+
+#. module: muk_dms
+#: model:ir.model.fields,field_description:muk_dms.field_res_config_settings__module_muk_dms_index
+msgid "Automatically create a file index based on the content"
+msgstr "Автоматически создёт индекс файла на основе содержимого"
+
+#. module: muk_dms
+#: model:ir.model.fields,help:muk_dms.field_res_config_settings__module_muk_dms_index
+msgid "Automatically create a file index based on the content."
+msgstr "Автоматически создёт индекс файла на основе содержимого."
+
+#. module: muk_dms
+#: model:ir.model.fields,field_description:muk_dms.field_res_config_settings__module_muk_dms_view
+msgid "Tree View"
+msgstr "Вид дерева"
+
+#. module: muk_dms
+#: model_terms:ir.ui.view,arch_db:muk_dms.res_config_settings_view_form
+msgid "Activates the documents tree view"
+msgstr "Активирует вид дерева для документов"
+
+#. module: muk_dms
+#: model:ir.model.fields,field_description:muk_dms.field_res_config_settings__module_muk_dms_view
+msgid "Activates the documents tree view"
+msgstr "Активирует вид дерева для документов"
+
+#. module: muk_dms
+#: model:ir.model.fields,help:muk_dms.field_res_config_settings__module_muk_dms_view
+msgid "Activates the documents tree view."
+msgstr "Активирует вид дерева для документов."
