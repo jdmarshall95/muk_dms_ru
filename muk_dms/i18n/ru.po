@@ -1210,7 +1210,7 @@ msgstr "Доступ на чтение"
 #. module: muk_dms
 #: model:ir.model.fields,field_description:muk_dms.field_res_config_settings__module_muk_dms_trash
 msgid "Restore Files"
-msgstr "Восстановить файлы"
+msgstr "Восстановление файлов"
 
 #. module: muk_dms
 #: model:ir.model.fields,field_description:muk_dms.field_muk_dms_storage__root_directories
