@@ -1609,3 +1609,8 @@ msgstr "Активирует вид дерева для документов"
 #: model:ir.model.fields,help:muk_dms.field_res_config_settings__module_muk_dms_view
 msgid "Activates the documents tree view."
 msgstr "Активирует вид дерева для документов."
+
+#. module: muk_dms
+#: model_terms:ir.ui.view,arch_db:muk_dms.res_config_settings_view_form
+msgid "Integrations"
+msgstr "Интеграции"
