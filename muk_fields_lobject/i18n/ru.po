@@ -8,8 +8,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-13 00:20+0000\n"
 "PO-Revision-Date: 2019-07-13 00:20+0000\n"
-"Last-Translator: <>\n"
-"Language-Team: \n"
+"Last-Translator: <Greendilow>\n"
+"Language-Team: Jabba\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -38,32 +38,32 @@ msgstr "Маршрутизация HTTP"
 #. module: muk_fields_lobject
 #: selection:ir.model.fields,ttype:0
 msgid "binary"
-msgstr ""
+msgstr "двоичный"
 
 #. module: muk_fields_lobject
 #: selection:ir.model.fields,ttype:0
 msgid "boolean"
-msgstr ""
+msgstr "булево значение"
 
 #. module: muk_fields_lobject
 #: selection:ir.model.fields,ttype:0
 msgid "char"
-msgstr ""
+msgstr "символ"
 
 #. module: muk_fields_lobject
 #: selection:ir.model.fields,ttype:0
 msgid "date"
-msgstr ""
+msgstr "дата"
 
 #. module: muk_fields_lobject
 #: selection:ir.model.fields,ttype:0
 msgid "datetime"
-msgstr ""
+msgstr "дата и время"
 
 #. module: muk_fields_lobject
 #: selection:ir.model.fields,ttype:0
 msgid "float"
-msgstr ""
+msgstr "число с плавающей точкой"
 
 #. module: muk_fields_lobject
 #: selection:ir.model.fields,ttype:0
@@ -73,45 +73,44 @@ msgstr ""
 #. module: muk_fields_lobject
 #: selection:ir.model.fields,ttype:0
 msgid "integer"
-msgstr ""
+msgstr "целое число"
 
 #. module: muk_fields_lobject
 #: selection:ir.model.fields,ttype:0
 msgid "lobject"
-msgstr ""
+msgstr "большой объект"
 
 #. module: muk_fields_lobject
 #: selection:ir.model.fields,ttype:0
 msgid "many2many"
-msgstr ""
+msgstr "многие ко многим"
 
 #. module: muk_fields_lobject
 #: selection:ir.model.fields,ttype:0
 msgid "many2one"
-msgstr ""
+msgstr "многие к одному"
 
 #. module: muk_fields_lobject
 #: selection:ir.model.fields,ttype:0
 msgid "monetary"
-msgstr ""
+msgstr "денежный"
 
 #. module: muk_fields_lobject
 #: selection:ir.model.fields,ttype:0
 msgid "one2many"
-msgstr ""
+msgstr "один ко многим"
 
 #. module: muk_fields_lobject
 #: selection:ir.model.fields,ttype:0
 msgid "reference"
-msgstr ""
+msgstr "ссылка"
 
 #. module: muk_fields_lobject
 #: selection:ir.model.fields,ttype:0
 msgid "selection"
-msgstr ""
+msgstr "выбор"
 
 #. module: muk_fields_lobject
 #: selection:ir.model.fields,ttype:0
 msgid "text"
-msgstr ""
-
+msgstr "текст"
