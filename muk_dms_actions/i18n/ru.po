@@ -18,122 +18,122 @@ msgstr ""
 #. module: muk_dms_actions
 #: model:ir.model,name:muk_dms_actions.model_muk_dms_actions_action
 msgid "Action"
-msgstr ""
+msgstr "Действие"
 
 #. module: muk_dms_actions
 #: model:ir.model.fields,field_description:muk_dms_actions.field_muk_dms_actions_action__is_limited_to_single_file
 msgid "Action is limited to a single File"
-msgstr ""
+msgstr "アクションは単一のファイルに制限されています"
 
 #. module: muk_dms_actions
 #: model:ir.model.fields,field_description:muk_dms_actions.field_muk_dms_actions_action__active
 msgid "Active"
-msgstr ""
+msgstr "アクティブ"
 
 #. module: muk_dms_actions
 #: model_terms:ir.ui.view,arch_db:muk_dms_actions.view_dms_action_search
 msgid "All"
-msgstr ""
+msgstr "すべて"
 
 #. module: muk_dms_actions
 #: model:ir.model.fields,field_description:muk_dms_actions.field_muk_dms_file__actions
 msgid "Available Actions"
-msgstr ""
+msgstr "Доступные действия"
 
 #. module: muk_dms_actions
 #: model:ir.model.fields,field_description:muk_dms_actions.field_muk_dms_file__actions_multi
 msgid "Available Multi Actions"
-msgstr ""
+msgstr "Доступные мульти-действия"
 
 #. module: muk_dms_actions
 #: model:ir.model.fields,field_description:muk_dms_actions.field_muk_dms_actions_action__is_single_file_action
 msgid "Can only be triggered on single records"
-msgstr ""
+msgstr "Может быть включено только на одиночных записях"
 
 #. module: muk_dms_actions
 #: model:ir.model.fields,field_description:muk_dms_actions.field_muk_dms_actions_action__criteria_category
 #: model_terms:ir.ui.view,arch_db:muk_dms_actions.view_dms_action_search
 msgid "Category Criteria"
-msgstr ""
+msgstr "Критерии категории"
 
 #. module: muk_dms_actions
 #: model_terms:ir.actions.act_window,help:muk_dms_actions.action_dms_action
 msgid "Click to create a new operation."
-msgstr ""
+msgstr "Нажмите, чтобы создать новую операцию"
 
 #. module: muk_dms_actions
 #: selection:muk_dms_actions.action,state:0
 msgid "Create a Partner"
-msgstr ""
+msgstr "Создайте Партнера"
 
 #. module: muk_dms_actions
 #: model_terms:ir.ui.view,arch_db:muk_dms_actions.view_dms_action_form
 msgid "Create a new Partner"
-msgstr ""
+msgstr "Создайте нового Партнера"
 
 #. module: muk_dms_actions
 #: model:ir.model.fields,field_description:muk_dms_actions.field_muk_dms_actions_action__create_uid
 msgid "Created by"
-msgstr ""
+msgstr "Создано"
 
 #. module: muk_dms_actions
 #: model:ir.model.fields,field_description:muk_dms_actions.field_muk_dms_actions_action__create_date
 msgid "Created on"
-msgstr ""
+msgstr "Создано"
 
 #. module: muk_dms_actions
 #. openerp-web
 #: code:addons/muk_dms_actions/static/src/xml/actions.xml:30
 #, python-format
 msgid "Custom Operations"
-msgstr ""
+msgstr "Пользовательские операции"
 
 #. module: muk_dms_actions
 #: model:ir.model.fields,field_description:muk_dms_actions.field_muk_dms_actions_action__criteria_directory
 #: model_terms:ir.ui.view,arch_db:muk_dms_actions.view_dms_action_search
 msgid "Directory Criteria"
-msgstr ""
+msgstr "Критерии категории"
 
 #. module: muk_dms_actions
 #: model:ir.model.fields,field_description:muk_dms_actions.field_muk_dms_actions_action__display_name
 msgid "Display Name"
-msgstr ""
+msgstr "Отображаемое имя"
 
 #. module: muk_dms_actions
 #: model:ir.model.fields,field_description:muk_dms_actions.field_muk_dms_actions_action__criteria_domain
 #: model_terms:ir.ui.view,arch_db:muk_dms_actions.view_dms_action_form
 msgid "Domain Criteria"
-msgstr ""
+msgstr "Критерии домена"
 
 #. module: muk_dms_actions
 #: model:ir.model,name:muk_dms_actions.model_muk_dms_file
 msgid "File"
-msgstr ""
+msgstr "Файл"
 
 #. module: muk_dms_actions
 #: model:ir.model.fields,field_description:muk_dms_actions.field_muk_dms_actions_action__state
 msgid "File Action"
-msgstr ""
+msgstr "Действия с файлом"
 
 #. module: muk_dms_actions
 #: model_terms:ir.ui.view,arch_db:muk_dms_actions.view_dms_file_domain_tree
 msgid "Files"
-msgstr ""
+msgstr "Фильтры"
 
 #. module: muk_dms_actions
 #: model:ir.model.fields,field_description:muk_dms_actions.field_muk_dms_actions_action__filter_domain
 msgid "Filter Domain"
-msgstr ""
+msgstr "Фильтр домена"
 
 #. module: muk_dms_actions
 #: model_terms:ir.ui.view,arch_db:muk_dms_actions.view_dms_action_search
 msgid "Group By"
-msgstr ""
+msgstr "Сгруппировать по"
 
 #. module: muk_dms_actions
 #: model:ir.model.fields,field_description:muk_dms_actions.field_muk_dms_actions_action__id
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: muk_dms_actions
 #: model:ir.model.fields,help:muk_dms_actions.field_muk_dms_actions_action__is_limited_to_single_file
@@ -144,7 +144,6 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:muk_dms_actions.view_dms_action_form
 msgid "Internal / Human Resource"
 msgstr ""
-
 #. module: muk_dms_actions
 #: model:ir.model.fields,field_description:muk_dms_actions.field_muk_dms_actions_action____last_update
 msgid "Last Modified on"
@@ -250,4 +249,3 @@ msgstr ""
 #, python-format
 msgid "The field '%s' must be a many2many field with a relation to file actions for the widget to work."
 msgstr ""
-
