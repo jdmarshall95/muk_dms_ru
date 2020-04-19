@@ -99,12 +99,12 @@ msgstr "Файловое хранилище"
 #. module: muk_dms_attachment
 #: model:ir.ui.view,arch_db:muk_dms_attachment.res_config_settings_view_form
 msgid "Force Storage Migration"
-msgstr "Принудительная миграция хранилища"
+msgstr "Принудительное перемещение хранилища"
 
 #. module: muk_dms_attachment
 #: model:ir.actions.server,name:muk_dms_attachment.action_dms_attachment_migrate
 msgid "Migrate Storage Location"
-msgstr "Мигрировать хранилише"
+msgstr "Переместить место хранения"
 
 #. module: muk_dms_attachment
 #: selection:res.config.settings,attachment_location:0
@@ -136,12 +136,12 @@ msgstr "Хранилище"
 #. module: muk_dms_attachment
 #: model:ir.model.fields,field_description:muk_dms_attachment.field_res_config_settings_attachment_location
 msgid "Storage Location"
-msgstr "Место хранилища"
+msgstr "Место хранения"
 
 #. module: muk_dms_attachment
 #: model:ir.model.fields,field_description:muk_dms_attachment.field_ir_attachment_storage_type
 msgid "Storage Type"
-msgstr "Тип хранилища"
+msgstr "Тип хранения"
 
 #. module: muk_dms_attachment
 #: code:addons/muk_dms_attachment/models/dms_file.py:67
