@@ -138,42 +138,43 @@ msgstr "ID"
 #. module: muk_dms_actions
 #: model:ir.model.fields,help:muk_dms_actions.field_muk_dms_actions_action__is_limited_to_single_file
 msgid "If checked the action is limited to a single file record."
-msgstr ""
+msgstr "Если установлено, действия ограничены файловой записью."
 
 #. module: muk_dms_actions
 #: model_terms:ir.ui.view,arch_db:muk_dms_actions.view_dms_action_form
 msgid "Internal / Human Resource"
-msgstr ""
+msgstr "Внутренние / Человеческие ресурсы"
+
 #. module: muk_dms_actions
 #: model:ir.model.fields,field_description:muk_dms_actions.field_muk_dms_actions_action____last_update
 msgid "Last Modified on"
-msgstr ""
+msgstr "Последний раз изменено"
 
 #. module: muk_dms_actions
 #: model:ir.model.fields,field_description:muk_dms_actions.field_muk_dms_actions_action__write_uid
 msgid "Last Updated by"
-msgstr ""
+msgstr "Последний раз обновлено"
 
 #. module: muk_dms_actions
 #: model:ir.model.fields,field_description:muk_dms_actions.field_muk_dms_actions_action__write_date
 msgid "Last Updated on"
-msgstr ""
+msgstr "Последний раз обновлено"
 
 #. module: muk_dms_actions
 #: model_terms:ir.ui.view,arch_db:muk_dms_actions.view_dms_action_form
 msgid "Limited to single Files"
-msgstr ""
+msgstr "Ограничено определенными файлами"
 
 #. module: muk_dms_actions
 #: model:ir.model.fields,field_description:muk_dms_actions.field_muk_dms_actions_action__name
 msgid "Name"
-msgstr ""
+msgstr "Имя"
 
 #. module: muk_dms_actions
 #: code:addons/muk_dms_actions/models/action.py:171
 #, python-format
 msgid "New Partner"
-msgstr ""
+msgstr "Новый партнер"
 
 #. module: muk_dms_actions
 #. openerp-web
@@ -188,64 +189,64 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:muk_dms_actions.view_dms_file_tree
 #, python-format
 msgid "Operations"
-msgstr ""
+msgstr "Операции"
 
 #. module: muk_dms_actions
 #: model_terms:ir.actions.act_window,help:muk_dms_actions.action_dms_action
 msgid "Operations are used to trigger document workflows."
-msgstr ""
+msgstr "Операции используются для активации рабочих полей."
 
 #. module: muk_dms_actions
 #: code:addons/muk_dms_actions/models/action.py:185
 #, python-format
 msgid "Partner created from Documents"
-msgstr ""
+msgstr "Партнер, созданный из Документов"
 
 #. module: muk_dms_actions
 #: code:addons/muk_dms_actions/models/action.py:194
 #, python-format
 msgid "Partners created from Documents"
-msgstr ""
+msgstr "Партнер, созданный из Документов"
 
 #. module: muk_dms_actions
 #: model:ir.model.fields,field_description:muk_dms_actions.field_muk_dms_actions_action__server_action_model
 msgid "Server Action Model"
-msgstr ""
+msgstr "Модель действий сервера"
 
 #. module: muk_dms_actions
 #: model:ir.model.fields,field_description:muk_dms_actions.field_muk_dms_actions_action__server_actions
 #: model_terms:ir.ui.view,arch_db:muk_dms_actions.view_dms_action_form
 msgid "Server Actions"
-msgstr ""
+msgstr "Действия сервера"
 
 #. module: muk_dms_actions
 #: model:ir.model.fields,field_description:muk_dms_actions.field_muk_dms_actions_action__set_category
 msgid "Set Category"
-msgstr ""
+msgstr "Установить категорию"
 
 #. module: muk_dms_actions
 #: model:ir.model.fields,field_description:muk_dms_actions.field_muk_dms_actions_action__set_directory
 msgid "Set Directory"
-msgstr ""
+msgstr "Установить каталог"
 
 #. module: muk_dms_actions
 #: model:ir.model.fields,field_description:muk_dms_actions.field_muk_dms_actions_action__set_tags
 msgid "Set Tags"
-msgstr ""
+msgstr "Установить метку"
 
 #. module: muk_dms_actions
 #: model:ir.model.fields,field_description:muk_dms_actions.field_muk_dms_actions_action__criteria_tags
 msgid "Tag Criteria"
-msgstr ""
+msgstr "Установить критерии"
 
 #. module: muk_dms_actions
 #: model_terms:ir.ui.view,arch_db:muk_dms_actions.view_dms_action_form
 msgid "Tags..."
-msgstr ""
+msgstr "Метки..."
 
 #. module: muk_dms_actions
 #. openerp-web
 #: code:addons/muk_dms_actions/static/src/js/fields/abstract_actions.js:44
 #, python-format
 msgid "The field '%s' must be a many2many field with a relation to file actions for the widget to work."
-msgstr ""
+msgstr "Поле '% s' должно быть полем many2many с отношением к действиям файла для работы виджета."

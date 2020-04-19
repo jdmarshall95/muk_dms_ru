@@ -18,52 +18,52 @@ msgstr ""
 #. module: muk_dms_lobject
 #: model:ir.model.fields,field_description:muk_dms_lobject.field_muk_dms_file__content_lobject
 msgid "Content LObject"
-msgstr ""
+msgstr "Контент в виде Большого объекта"
 
 #. module: muk_dms_lobject
 #: model:ir.model,name:muk_dms_lobject.model_muk_dms_file
 msgid "File"
-msgstr ""
+msgstr "Файл"
 
 #. module: muk_dms_lobject
 #: selection:muk_dms.storage,save_type:0
 msgid "Filestore"
-msgstr ""
+msgstr "Файловое хранилище"
 
 #. module: muk_dms_lobject
 #: selection:muk_dms.storage,save_type:0
 msgid "Large Object"
-msgstr ""
+msgstr "Большой объект"
 
 #. module: muk_dms_lobject
 #: code:addons/muk_dms_lobject/models/storage.py:47
 #, python-format
 msgid "Only managers can execute this action."
-msgstr ""
+msgstr "Только менеджеры могут выполнять это действие"
 
 #. module: muk_dms_lobject
 #: model:ir.model.fields,field_description:muk_dms_lobject.field_muk_dms_storage__save_type
 msgid "Save Type"
-msgstr ""
+msgstr "Тип хранения"
 
 #. module: muk_dms_lobject
 #: model:ir.model,name:muk_dms_lobject.model_muk_dms_storage
 msgid "Storage"
-msgstr ""
+msgstr "Хранилище"
 
 #. module: muk_dms_lobject
 #: model_terms:ir.ui.view,arch_db:muk_dms_lobject.res_config_settings_view_form
 msgid "Storages"
-msgstr ""
+msgstr "Хранилища"
 
 #. module: muk_dms_lobject
 #: model:ir.model.fields,help:muk_dms_lobject.field_muk_dms_storage__save_type
 msgid "The save type is used to determine how a file is saved by the system. If you change \n"
 "            this setting, you can migrate existing files manually by triggering the action."
-msgstr ""
+msgstr "Тип хранения используется для определения того, как файл сохраняется системой. \n"
+"Если вы измените этот параметр, вы можете перенести существующие файлы вручную, запустив действие."
 
 #. module: muk_dms_lobject
 #: selection:muk_dms.storage,save_type:0
 msgid "База данных"
-msgstr ""
-
+msgstr "База данных"
