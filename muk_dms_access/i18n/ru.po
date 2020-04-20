@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: Odoo Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-26 09:11+0000\n"
-"PO-Revision-Date: 2018-01-26 09:11+0000\n"
+"POT-Creation-Date: 2020-04-20 09:44+0000\n"
+"PO-Revision-Date: 2020-04-20 09:44+0000\n"
 "Last-Translator: <Greendilow>\n"
 "Language-Team: Jabba\n"
 "MIME-Version: 1.0\n"
@@ -16,218 +16,76 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: muk_dms_access
-#: model:ir.model.fields,field_description:muk_dms_access.field_muk_dms_access_groups_perm_access
-#: model:ir.model.fields,field_description:muk_dms_access.field_muk_dms_access_perm_access
-#: model:ir.model.fields,field_description:muk_dms_access.field_muk_dms_directory_perm_access
-#: model:ir.model.fields,field_description:muk_dms_access.field_muk_dms_file_perm_access
-msgid "Access"
-msgstr "Доступ"
-
-#. module: muk_dms_access
-#: model:ir.actions.act_window,name:muk_dms_access.action_dms_groups
-#: model:ir.ui.menu,name:muk_dms_access.menu_dms_group
+#: model_terms:ir.ui.view,arch_db:muk_dms_access.res_config_settings_view_form
 msgid "Access Control"
 msgstr "Контроль доступа"
 
 #. module: muk_dms_access
-#: model:ir.model,name:muk_dms_access.model_muk_dms_access_groups
-#: model:ir.model,name:muk_dms_access.model_res_groups
+#: model:ir.actions.act_window,name:muk_dms_access.action_dms_access_groups
+#: model:ir.ui.menu,name:muk_dms_access.menu_dms_access_groups
+#: model_terms:ir.ui.view,arch_db:muk_dms_access.res_config_settings_view_form
 msgid "Access Groups"
 msgstr "Группы доступа"
 
 #. module: muk_dms_access
-#: model:ir.model.fields,field_description:muk_dms_access.field_muk_dms_access_groups_additional_users
-#: model:ir.ui.view,arch_db:muk_dms_access.view_dms_groups_form
-msgid "Additional Users"
-msgstr "Дополнительные пользователи"
+#: model_terms:ir.ui.view,arch_db:muk_dms_access.res_config_settings_view_form
+msgid "Allows users to edit the access groups of a directory"
+msgstr "Позволяет пользователям редактировать группы доступа к каталогу"
 
 #. module: muk_dms_access
-#: model:ir.model.fields,field_description:muk_dms_access.field_muk_dms_access_groups_child_groups
-#: model:ir.ui.view,arch_db:muk_dms_access.view_dms_groups_form
-msgid "Child Groups"
-msgstr "Дочерние группы"
+#: model:ir.model.fields,help:muk_dms_access.field_res_config_settings__documents_access_groups_user_view
+msgid "Allows users to edit the access groups of a directory."
+msgstr "Позволяет пользователям редактировать группы доступа к каталогу."
 
 #. module: muk_dms_access
-#: model:ir.ui.view,arch_db:muk_dms_access.view_dms_directory_form
-#: model:ir.ui.view,arch_db:muk_dms_access.view_dms_file_form
+#: model_terms:ir.ui.view,arch_db:muk_dms_access.view_dms_directory_form
+#: model_terms:ir.ui.view,arch_db:muk_dms_access.view_dms_directory_manager_form
 msgid "Complete Groups"
 msgstr "Полные группы"
 
 #. module: muk_dms_access
-#: model:ir.model.fields,field_description:muk_dms_access.field_muk_dms_access_groups_perm_create
-msgid "Create"
-msgstr "Создать"
+#: model:ir.model,name:muk_dms_access.model_res_config_settings
+msgid "Config Settings"
+msgstr "Настройки конфигурации"
 
 #. module: muk_dms_access
-#: model:ir.model.fields,field_description:muk_dms_access.field_muk_dms_access_groups_create_uid
-msgid "Created by"
-msgstr "Создан"
+#: model:ir.model.fields,field_description:muk_dms_access.field_muk_security_access_groups__count_directories
+msgid "Count Directories"
+msgstr "Посчет каталогов"
 
 #. module: muk_dms_access
-#: model:ir.model.fields,field_description:muk_dms_access.field_muk_dms_access_groups_create_date
-msgid "Created on"
-msgstr "Создано на"
-
-#. module: muk_dms_access
-#: model:ir.model.fields,field_description:muk_dms_access.field_muk_dms_access_groups_departments
-#: model:ir.ui.view,arch_db:muk_dms_access.view_dms_groups_form
-msgid "Departments"
-msgstr "Разделы"
-
-#. module: muk_dms_access
-#: model:ir.model.fields,field_description:muk_dms_access.field_muk_dms_access_groups_count_directories
-#: model:ir.model.fields,field_description:muk_dms_access.field_muk_dms_access_groups_directories
-#: model:ir.ui.view,arch_db:muk_dms_access.view_dms_groups_form
+#: model:ir.model.fields,field_description:muk_dms_access.field_muk_security_access_groups__directories
+#: model_terms:ir.ui.view,arch_db:muk_dms_access.view_dms_access_groups_form
 msgid "Directories"
 msgstr "Каталоги"
 
 #. module: muk_dms_access
-#: model:ir.model.fields,field_description:muk_dms_access.field_muk_dms_access_groups_display_name
-msgid "Display Name"
-msgstr "Отображаемое имя"
+#: model:ir.model,name:muk_dms_access.model_muk_dms_directory
+msgid "Directory"
+msgstr "Каталог"
 
 #. module: muk_dms_access
-#: model:hr.job,name:muk_dms_access.job_dmshr_demo
-msgid "Documents Officer"
-msgstr "Ответственный за документы"
-
-#. module: muk_dms_access
-#: model:ir.model,name:muk_dms_access.model_muk_dms_file
-msgid "File"
-msgstr "Файл"
-
-#. module: muk_dms_access
-#: model:ir.model.fields,field_description:muk_dms_access.field_muk_dms_access_groups_count_files
-#: model:ir.model.fields,field_description:muk_dms_access.field_muk_dms_access_groups_files
-#: model:ir.ui.view,arch_db:muk_dms_access.view_dms_groups_form
+#: model_terms:ir.ui.view,arch_db:muk_dms_access.view_dms_access_groups_form
 msgid "Files"
 msgstr "Файлы"
 
 #. module: muk_dms_access
-#: model:ir.ui.view,arch_db:muk_dms_access.view_dms_groups_form
-msgid "Group"
-msgstr "Группы"
-
-#. module: muk_dms_access
-#: model:ir.model.fields,field_description:muk_dms_access.field_muk_dms_access_groups_name
-msgid "Group Name"
-msgstr "Название группы"
-
-#. module: muk_dms_access
-#: model:ir.model.fields,field_description:muk_dms_access.field_hr_department_groups
-#: model:ir.model.fields,field_description:muk_dms_access.field_hr_job_groups
-#: model:ir.model.fields,field_description:muk_dms_access.field_muk_dms_access_groups_groups
-#: model:ir.model.fields,field_description:muk_dms_access.field_res_groups_groups
-#: model:ir.ui.view,arch_db:muk_dms_access.view_dms_directory_form
-#: model:ir.ui.view,arch_db:muk_dms_access.view_dms_file_form
-#: model:ir.ui.view,arch_db:muk_dms_access.view_dms_groups_form
-#: model:ir.ui.view,arch_db:muk_dms_access.view_dms_groups_tree
+#: model_terms:ir.ui.view,arch_db:muk_dms_access.view_dms_directory_form
+#: model_terms:ir.ui.view,arch_db:muk_dms_access.view_dms_directory_manager_form
 msgid "Groups"
 msgstr "Группы"
 
 #. module: muk_dms_access
-#: model:ir.model,name:muk_dms_access.model_hr_department
-msgid "HR Department"
-msgstr "HR Раздел"
-
-#. module: muk_dms_access
-#: model:ir.model.fields,field_description:muk_dms_access.field_muk_dms_access_groups_id
-msgid "ID"
-msgstr "ID"
-
-#. module: muk_dms_access
-#: model:ir.model.fields,field_description:muk_dms_access.field_muk_dms_access_inherit_groups
-#: model:ir.model.fields,field_description:muk_dms_access.field_muk_dms_directory_inherit_groups
-#: model:ir.model.fields,field_description:muk_dms_access.field_muk_dms_file_inherit_groups
+#: model:ir.model.fields,field_description:muk_dms_access.field_muk_dms_directory__inherit_groups
 msgid "Inherit Groups"
-msgstr "Наследовать группы"
+msgstr "Наследуемые группы"
 
 #. module: muk_dms_access
-#: model:ir.model,name:muk_dms_access.model_hr_job
-msgid "Job Position"
-msgstr "Место работы"
+#: model:ir.model,name:muk_dms_access.model_muk_security_access_groups
+msgid "Record Access Groups"
+msgstr "Группы доступа к записи"
 
 #. module: muk_dms_access
-#: model:ir.model.fields,field_description:muk_dms_access.field_muk_dms_access_groups_jobs
-#: model:ir.ui.view,arch_db:muk_dms_access.view_dms_groups_form
-msgid "Jobs"
-msgstr "Работы"
-
-#. module: muk_dms_access
-#: model:ir.model.fields,field_description:muk_dms_access.field_muk_dms_access_groups___last_update
-msgid "Last Modified on"
-msgstr "Последнее изменение"
-
-#. module: muk_dms_access
-#: model:ir.model.fields,field_description:muk_dms_access.field_muk_dms_access_groups_write_uid
-msgid "Last Updated by"
-msgstr "Последний раз обновлял"
-
-#. module: muk_dms_access
-#: model:ir.model.fields,field_description:muk_dms_access.field_muk_dms_access_groups_write_date
-msgid "Last Updated on"
-msgstr "Последнее обновление"
-
-#. module: muk_dms_access
-#: model:ir.model.fields,field_description:muk_dms_access.field_muk_dms_access_groups_parent_left
-msgid "Left Parent"
-msgstr ""
-
-#. module: muk_dms_access
-#: model:ir.model,name:muk_dms_access.model_muk_dms_access
-msgid "MuK Documents Access"
-msgstr "Доступ MuK Documents"
-
-#. module: muk_dms_access
-#: model:ir.model,name:muk_dms_access.model_muk_dms_directory
-msgid "MuK Documents Directory"
-msgstr "Каталог MuK Documents"
-
-#. module: muk_dms_access
-#: model:ir.model.fields,field_description:muk_dms_access.field_muk_dms_access_groups_parent_group
-msgid "Parent Group"
-msgstr "Родительская группа"
-
-#. module: muk_dms_access
-#: model:ir.model.fields,field_description:muk_dms_access.field_muk_dms_access_groups_perm_read
-msgid "Read"
-msgstr "Чтение"
-
-#. module: muk_dms_access
-#: model:ir.model.fields,field_description:muk_dms_access.field_muk_dms_access_groups_parent_right
-msgid "Right Parent"
-msgstr ""
-
-#. module: muk_dms_access
-#: model:ir.ui.view,arch_db:muk_dms_access.view_dms_groups_form
-msgid "Settings"
-msgstr "Настройки"
-
-#. module: muk_dms_access
-#: sql_constraint:muk_dms_access.groups:0
-msgid "The name of the group must be unique!"
-msgstr "Название группы должно быть уникальным!"
-
-#. module: muk_dms_access
-#: code:addons/muk_dms_access/models/dms_base.py:108
-#: code:addons/muk_dms_access/models/dms_base.py:229
-#, python-format
-msgid "This operation is forbidden!"
-msgstr "Эта операция запрещена!"
-
-#. module: muk_dms_access
-#: model:ir.model.fields,field_description:muk_dms_access.field_muk_dms_access_groups_perm_unlink
-msgid "Unlink"
-msgstr "Разъединить"
-
-#. module: muk_dms_access
-#: model:ir.model.fields,field_description:muk_dms_access.field_muk_dms_access_groups_count_users
-#: model:ir.model.fields,field_description:muk_dms_access.field_muk_dms_access_groups_users
-#: model:ir.ui.view,arch_db:muk_dms_access.view_dms_groups_form
-msgid "Users"
-msgstr "Пользователи"
-
-#. module: muk_dms_access
-#: model:ir.model.fields,field_description:muk_dms_access.field_muk_dms_access_groups_perm_write
-msgid "Write"
-msgstr "Запись"
+#: model:ir.model.fields,field_description:muk_dms_access.field_res_config_settings__documents_access_groups_user_view
+msgid "Show Access Groups on User Form"
+msgstr "Показать группы доступа в Форме пользователя"

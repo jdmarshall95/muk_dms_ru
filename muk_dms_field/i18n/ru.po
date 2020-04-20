@@ -1,13 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#	* muk_fields_lobject
+#	* muk_dms_field
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-20 09:47+0000\n"
-"PO-Revision-Date: 2020-04-20 09:47+0000\n"
+"POT-Creation-Date: 2020-04-20 09:50+0000\n"
+"PO-Revision-Date: 2020-04-20 09:50+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -15,107 +15,107 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
-#. module: muk_fields_lobject
-#: model:ir.model,name:muk_fields_lobject.model_base
+#. module: muk_dms_field
+#: model:ir.model,name:muk_dms_field.model_base
 msgid "Base"
 msgstr "База"
 
-#. module: muk_fields_lobject
-#: model:ir.model.fields,field_description:muk_fields_lobject.field_ir_model_fields__ttype
+#. module: muk_dms_field
+#: model:ir.model.fields,field_description:muk_dms_field.field_ir_model_fields__ttype
 msgid "Field Type"
 msgstr "Тип поля"
 
-#. module: muk_fields_lobject
-#: model:ir.model,name:muk_fields_lobject.model_ir_model_fields
+#. module: muk_dms_field
+#: model:ir.model,name:muk_dms_field.model_ir_model_fields
 msgid "Fields"
 msgstr "Поля"
 
-#. module: muk_fields_lobject
-#: model:ir.model,name:muk_fields_lobject.model_ir_http
-msgid "HTTP Routing"
-msgstr "НТТР Маршрутизация"
+#. module: muk_dms_field
+#: model:ir.model,name:muk_dms_field.model_muk_dms_file
+msgid "File"
+msgstr "Файл"
 
-#. module: muk_fields_lobject
+#. module: muk_dms_field
 #: selection:ir.model.fields,ttype:0
 msgid "binary"
 msgstr "двоичный"
 
-#. module: muk_fields_lobject
+#. module: muk_dms_field
 #: selection:ir.model.fields,ttype:0
 msgid "boolean"
 msgstr "булево значение"
 
-#. module: muk_fields_lobject
+#. module: muk_dms_field
 #: selection:ir.model.fields,ttype:0
 msgid "char"
 msgstr "символ"
 
-#. module: muk_fields_lobject
+#. module: muk_dms_field
 #: selection:ir.model.fields,ttype:0
 msgid "date"
 msgstr "дата"
 
-#. module: muk_fields_lobject
+#. module: muk_dms_field
 #: selection:ir.model.fields,ttype:0
 msgid "datetime"
 msgstr "дата и время"
 
-#. module: muk_fields_lobject
+#. module: muk_dms_field
 #: selection:ir.model.fields,ttype:0
 msgid "file"
 msgstr "файл"
 
-#. module: muk_fields_lobject
+#. module: muk_dms_field
 #: selection:ir.model.fields,ttype:0
 msgid "float"
 msgstr "число с плавающей точкой"
 
-#. module: muk_fields_lobject
+#. module: muk_dms_field
 #: selection:ir.model.fields,ttype:0
 msgid "html"
 msgstr ""
 
-#. module: muk_fields_lobject
+#. module: muk_dms_field
 #: selection:ir.model.fields,ttype:0
 msgid "integer"
 msgstr "целое число"
 
-#. module: muk_fields_lobject
+#. module: muk_dms_field
 #: selection:ir.model.fields,ttype:0
 msgid "lobject"
 msgstr "большой объект"
 
-#. module: muk_fields_lobject
+#. module: muk_dms_field
 #: selection:ir.model.fields,ttype:0
 msgid "many2many"
-msgstr "многие ко многим"
+msgstr "многий ко многим"
 
-#. module: muk_fields_lobject
+#. module: muk_dms_field
 #: selection:ir.model.fields,ttype:0
 msgid "many2one"
-msgstr "многие к одному"
+msgstr "многий к одному"
 
-#. module: muk_fields_lobject
+#. module: muk_dms_field
 #: selection:ir.model.fields,ttype:0
 msgid "monetary"
 msgstr "денежный"
 
-#. module: muk_fields_lobject
+#. module: muk_dms_field
 #: selection:ir.model.fields,ttype:0
 msgid "one2many"
 msgstr "один ко многим"
 
-#. module: muk_fields_lobject
+#. module: muk_dms_field
 #: selection:ir.model.fields,ttype:0
 msgid "reference"
 msgstr "ссылка"
 
-#. module: muk_fields_lobject
+#. module: muk_dms_field
 #: selection:ir.model.fields,ttype:0
 msgid "selection"
 msgstr "выбор"
 
-#. module: muk_fields_lobject
+#. module: muk_dms_field
 #: selection:ir.model.fields,ttype:0
 msgid "text"
 msgstr "текст"

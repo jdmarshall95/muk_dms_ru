@@ -4,87 +4,119 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: Odoo Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-26 12:31+0000\n"
-"PO-Revision-Date: 2018-01-26 12:31+0000\n"
-"Last-Translator: <Greendilow>\n"
-"Language-Team: Jabba\n"
+"POT-Creation-Date: 2020-04-20 09:46+0000\n"
+"PO-Revision-Date: 2020-04-20 09:46+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
 #. module: muk_dms_attachment
-#: code:addons/muk_dms_attachment/models/ir_attachment.py:138
+#: model_terms:ir.ui.view,arch_db:muk_dms_attachment.res_config_settings_view_form
+msgid "<strong>Save</strong> this page before triggering the migration."
+msgstr "<strong>Сохраните</strong> эту страницу перед началом перемещения."
+
+#. module: muk_dms_attachment
+#: code:addons/muk_dms_attachment/models/ir_attachment.py:104
 #, python-format
 msgid "A directory has to be defined."
 msgstr "Каталог должен быть определен."
 
 #. module: muk_dms_attachment
-#: model:ir.model.fields,help:muk_dms_attachment.field_res_config_settings_attachment_directory
-#: model:ir.ui.view,arch_db:muk_dms_attachment.res_config_settings_view_form
-msgid "After a attachment is created, it will be automatically saved to the default directory."
-msgstr "После создания вложения оно будет автоматически сохранено в каталоге по умолчанию."
+#: code:addons/muk_dms_attachment/models/ir_attachment.py:173
+#, python-format
+msgid "A linked attachments has to be linked to a file."
+msgstr "Связанные вложения должны быть связаны с файлом."
 
 #. module: muk_dms_attachment
-#: model:ir.actions.act_window,help:muk_dms_attachment.action_dms_attachment
-msgid "Also you will find here all the related documents and download it by clicking on any individual document."
-msgstr "Также вы найдете здесь все сопутствующие документы и загрузите их, нажав на любой отдельный документ."
+#: model:ir.model,name:muk_dms_attachment.model_muk_dms_actions_action
+msgid "Action"
+msgstr "Действие"
 
 #. module: muk_dms_attachment
-#: model:ir.ui.view,arch_db:muk_dms_attachment.view_attachment_search
-msgid "Attached Document Field"
-msgstr "Поле прикрепленного документа"
+#: model_terms:ir.actions.act_window,help:muk_dms_attachment.action_dms_attachment
+msgid "Add a new Attachment."
+msgstr "Добавить новое Вложение"
 
 #. module: muk_dms_attachment
-#: model:ir.ui.view,arch_db:muk_dms_attachment.view_attachment_search
-msgid "Attached Document Model"
-msgstr "Модель прикрепленного документа"
+#: model:ir.model.fields,help:muk_dms_attachment.field_res_config_settings__documents_attachment_directory
+msgid "After an attachment has been created, it is automatically saved\n"
+"            in the default directory should no other rule exist."
+msgstr "После создания вложения оно автоматически сохраняется\n"
+"            в каталоге по умолчанию, если не существует другого правила."
+
+#. module: muk_dms_attachment
+#: model_terms:ir.ui.view,arch_db:muk_dms_attachment.res_config_settings_view_form
+msgid "After an attachment has been created, it is automatically saved in the default directory should\n"
+"			                no other rule exist. By creating attachment rules its possible to further customize the process."
+msgstr "После создания вложения оно автоматически сохраняется а каталоге по умолчанию, если\n"
+"            если не существует другого правила. Создавая правила прикрепления, можно дополнительно настроить процесс."
 
 #. module: muk_dms_attachment
 #: model:ir.actions.act_window,name:muk_dms_attachment.action_dms_attachment
-#: model:ir.model.fields,field_description:muk_dms_attachment.field_muk_dms_file_attachment
-#: model:ir.ui.view,arch_db:muk_dms_attachment.res_config_settings_view_form
+#: model:ir.model,name:muk_dms_attachment.model_ir_attachment
+#: model:ir.model.fields,field_description:muk_dms_attachment.field_muk_dms_file__attachment
+#: model:ir.ui.menu,name:muk_dms_attachment.cat_menu_muk_dms_attachment
 msgid "Attachment"
 msgstr "Вложение"
 
 #. module: muk_dms_attachment
-#: model:ir.model.fields,help:muk_dms_attachment.field_res_config_settings_attachment_location
-#: model:ir.ui.view,arch_db:muk_dms_attachment.res_config_settings_view_form
-msgid "Attachment storage location."
+#: model:ir.model.fields,field_description:muk_dms_attachment.field_res_config_settings__documents_attachment_location
+msgid "Attachment Storage Location"
 msgstr "Место хранения вложения"
 
 #. module: muk_dms_attachment
+#: model:ir.model.fields,field_description:muk_dms_attachment.field_res_config_settings__documents_attachment_location_changed
+msgid "Attachment Storage Location Changed"
+msgstr "Место хранения вложения изменено"
+
+#. module: muk_dms_attachment
+#: model_terms:ir.ui.view,arch_db:muk_dms_attachment.res_config_settings_view_form
+msgid "Attachment storage location"
+msgstr "Место хранения вложения"
+
+#. module: muk_dms_attachment
+#: model:ir.model.fields,field_description:muk_dms_attachment.field_muk_dms_file__attachments
 #: model:ir.ui.menu,name:muk_dms_attachment.menu_dms_attachment
-#: model:ir.ui.view,arch_db:muk_dms_attachment.view_attachment_search
+#: model_terms:ir.ui.view,arch_db:muk_dms_attachment.res_config_settings_view_form
 msgid "Attachments"
 msgstr "Вложения"
 
 #. module: muk_dms_attachment
-#: model:ir.actions.act_window,help:muk_dms_attachment.action_dms_attachment
-msgid "Click here to create new documents."
-msgstr "Щелкните сюда, чтобы создать новые документы"
+#: model:ir.model.fields,help:muk_dms_attachment.field_muk_dms_file__attachments
+msgid "Attachments linked to a file."
+msgstr "Вложение связано с файлом"
 
 #. module: muk_dms_attachment
-#: selection:res.config.settings,attachment_location:0
-msgid "Database"
-msgstr "База данных"
+#: model:ir.model,name:muk_dms_attachment.model_res_config_settings
+msgid "Config Settings"
+msgstr "Настройки конфигурации"
 
 #. module: muk_dms_attachment
-#: model:ir.model.fields,field_description:muk_dms_attachment.field_res_config_settings_attachment_directory
+#: model:ir.model.fields,field_description:muk_dms_attachment.field_res_config_settings__documents_attachment_directory
 msgid "Default Directory"
 msgstr "Каталог по умолчанию"
 
 #. module: muk_dms_attachment
-#: model:ir.model.fields,field_description:muk_dms_attachment.field_ir_attachment_store_document
-msgid "Document File"
-msgstr "Файл документа"
+#: model:ir.model.fields,help:muk_dms_attachment.field_muk_dms_actions_action__attachment_link
+msgid "Define if attachments which are created during a file\n"
+"             action are copied or linked to the file."
+msgstr "Определите, что вложения, созданные во время действия с файлом,\n"
+"             скопированы или связаны с файлом."
 
 #. module: muk_dms_attachment
-#: model:ir.ui.view,arch_db:muk_dms_attachment.view_attachment_search
-msgid "Field Data"
-msgstr "Данные поля"
+#: model:ir.model.fields,field_description:muk_dms_attachment.field_ir_attachment__store_document_directory
+msgid "Document Directory"
+msgstr "Каталог документов"
+
+#. module: muk_dms_attachment
+#: model:ir.model.fields,field_description:muk_dms_attachment.field_ir_attachment__store_document
+msgid "Document File"
+msgstr "Файл документа"
 
 #. module: muk_dms_attachment
 #: model:ir.model,name:muk_dms_attachment.model_muk_dms_file
@@ -92,69 +124,72 @@ msgid "File"
 msgstr "Файл"
 
 #. module: muk_dms_attachment
-#: selection:res.config.settings,attachment_location:0
-msgid "File Storage"
-msgstr "Файловое хранилище"
-
-#. module: muk_dms_attachment
-#: model:ir.ui.view,arch_db:muk_dms_attachment.res_config_settings_view_form
+#: model_terms:ir.ui.view,arch_db:muk_dms_attachment.res_config_settings_view_form
 msgid "Force Storage Migration"
 msgstr "Принудительное перемещение хранилища"
 
 #. module: muk_dms_attachment
-#: model:ir.actions.server,name:muk_dms_attachment.action_dms_attachment_migrate
-msgid "Migrate Storage Location"
-msgstr "Переместить место хранения"
+#: model:ir.model.fields,field_description:muk_dms_attachment.field_muk_dms_file__is_attachment
+msgid "Is Attachment"
+msgstr "Вложение"
 
 #. module: muk_dms_attachment
-#: selection:res.config.settings,attachment_location:0
-msgid "MuK Documents"
-msgstr "MuK Documents"
+#: model:ir.model.fields,field_description:muk_dms_attachment.field_ir_attachment__is_store_document_link
+msgid "Is Document Link"
+msgstr "Ссылка на документ"
 
 #. module: muk_dms_attachment
-#: code:addons/muk_dms_attachment/models/dms_file.py:81
+#: model:ir.model.fields,field_description:muk_dms_attachment.field_muk_dms_actions_action__attachment_link
+msgid "Link Attachments"
+msgstr "Связать вложения"
+
+#. module: muk_dms_attachment
+#: code:addons/muk_dms_attachment/models/action.py:65
 #, python-format
-msgid "Multiple Attachments link to the same file!"
-msgstr "Несколько вложений ссылки на один и тот же файл!"
+msgid "New Partner"
+msgstr "Новый партнер"
 
 #. module: muk_dms_attachment
-#: code:addons/muk_dms_attachment/models/ir_attachment.py:70
+#: code:addons/muk_dms_attachment/models/ir_attachment.py:119
 #, python-format
 msgid "Only administrators can execute this action."
-msgstr "Это могут сделать только администраторы."
+msgstr "Это действие могут выполнить только администраторы."
 
 #. module: muk_dms_attachment
-#: model:ir.model.fields,help:muk_dms_attachment.field_muk_dms_file_attachment
-msgid "Reference to the attachment, if the file was created from one."
-msgstr "Ссылка на вложение, если файл создан из одного."
-
-#. module: muk_dms_attachment
-#: model:ir.ui.view,arch_db:muk_dms_attachment.view_attachment_form
-msgid "Storage"
-msgstr "Хранилище"
-
-#. module: muk_dms_attachment
-#: model:ir.model.fields,field_description:muk_dms_attachment.field_res_config_settings_attachment_location
-msgid "Storage Location"
-msgstr "Место хранения"
-
-#. module: muk_dms_attachment
-#: model:ir.model.fields,field_description:muk_dms_attachment.field_ir_attachment_storage_type
-msgid "Storage Type"
-msgstr "Тип хранения"
-
-#. module: muk_dms_attachment
-#: code:addons/muk_dms_attachment/models/dms_file.py:67
+#: code:addons/muk_dms_attachment/models/action.py:79
 #, python-format
-msgid "This operation is forbidden!"
-msgstr "Эта операция запрещена!"
+msgid "Partner created from Documents"
+msgstr "Партнер создан из Документов"
 
 #. module: muk_dms_attachment
-#: model:ir.model,name:muk_dms_attachment.model_ir_attachment
-msgid "ir.attachment"
-msgstr ""
+#: model:ir.model.fields,help:muk_dms_attachment.field_muk_dms_file__attachment
+msgid "Reference to the attachment, if the file was created from one."
+msgstr "Сделайте ссылку на вложение, если файл был создан из него."
 
 #. module: muk_dms_attachment
-#: model:ir.model,name:muk_dms_attachment.model_res_config_settings
-msgid "res.config.settings"
-msgstr ""
+#: model:ir.model.fields,help:muk_dms_attachment.field_res_config_settings__documents_attachment_location
+msgid "System Attachment storage location."
+msgstr "Система места хранения вложений."
+
+#. module: muk_dms_attachment
+#: code:addons/muk_dms_attachment/models/ir_attachment.py:185
+#, python-format
+msgid "The data of an attachment created by a file cannot be changed."
+msgstr "Данные вложения, созданного из файла, не могут быть изменены."
+
+#. module: muk_dms_attachment
+#: code:addons/muk_dms_attachment/models/ir_attachment.py:167
+#, python-format
+msgid "The file is already referenced by another attachment."
+msgstr "Файл уже имеет ссылку на другое вложение."
+
+#. module: muk_dms_attachment
+#: model:ir.model.fields,help:muk_dms_attachment.field_ir_attachment__is_store_document_link
+msgid "There are two possible ways in which a file and an attachment can be related.\n"
+"- True: The attachment is a link to a file. A file can have any number of links.\n"
+"- False: The attachment stores its contents in a file. This is a one to one relationship.\n"
+""
+msgstr "Существует два возможных способа связать файл и вложение.\n"
+"- True: вложение - это ссылка на файл. Файл может иметь любое количество ссылок.\n"
+"- False: вложение сохраняет свое содержимое в файле. Это отношения один к одному.\n"
+""
