@@ -20,56 +20,56 @@ msgstr ""
 #: code:addons/muk_dms_view/static/src/js/views/base/controller.js:461
 #, python-format
 msgid " couldn't be copied!"
-msgstr ""
+msgstr " не может быть скопировано!"
 
 #. module: muk_dms_view
 #. openerp-web
 #: code:addons/muk_dms_view/static/src/js/views/base/controller.js:408
 #, python-format
 msgid " couldn't be deleted!"
-msgstr ""
+msgstr " не может быть удалено!"
 
 #. module: muk_dms_view
 #. openerp-web
 #: code:addons/muk_dms_view/static/src/js/views/base/controller.js:389
 #, python-format
 msgid " couldn't be moved!"
-msgstr ""
+msgstr " не может быть перемещено!"
 
 #. module: muk_dms_view
 #. openerp-web
 #: code:addons/muk_dms_view/static/src/js/views/base/controller.js:476
 #, python-format
 msgid " couldn't be renamed!"
-msgstr ""
+msgstr " не может быть переименовано!"
 
 #. module: muk_dms_view
 #. openerp-web
 #: code:addons/muk_dms_view/static/src/js/views/base/controller.js:457
 #, python-format
 msgid " has been copied!"
-msgstr ""
+msgstr " не можеты быть скопировано!"
 
 #. module: muk_dms_view
 #. openerp-web
 #: code:addons/muk_dms_view/static/src/js/views/base/controller.js:404
 #, python-format
 msgid " has been deleted!"
-msgstr ""
+msgstr " было удалено!"
 
 #. module: muk_dms_view
 #. openerp-web
 #: code:addons/muk_dms_view/static/src/js/views/base/controller.js:385
 #, python-format
 msgid " has been moved!"
-msgstr ""
+msgstr " было перемещено!"
 
 #. module: muk_dms_view
 #. openerp-web
 #: code:addons/muk_dms_view/static/src/js/views/base/controller.js:473
 #, python-format
 msgid " has been renamed!"
-msgstr ""
+msgstr " было переименовано!"
 
 #. module: muk_dms_view
 #: model_terms:ir.ui.view,arch_db:muk_dms_view.view_dms_directory_kanban
@@ -81,14 +81,14 @@ msgstr ""
 #: code:addons/muk_dms_view/static/src/xml/dialogs.xml:170
 #, python-format
 msgid "Action Buttons"
-msgstr ""
+msgstr "Кнопки действия"
 
 #. module: muk_dms_view
 #. openerp-web
 #: code:addons/muk_dms_view/static/src/js/views/base/controller.js:558
 #, python-format
 msgid "Actions"
-msgstr ""
+msgstr "Действия"
 
 #. module: muk_dms_view
 #. openerp-web
@@ -96,35 +96,35 @@ msgstr ""
 #: code:addons/muk_dms_view/static/src/js/dialogs/drop/file_dialog.js:49
 #, python-format
 msgid "Cancel"
-msgstr ""
+msgstr "Отменить"
 
 #. module: muk_dms_view
 #. openerp-web
 #: code:addons/muk_dms_view/static/src/js/dialogs/selection/dialog.js:53
 #, python-format
 msgid "Close"
-msgstr ""
+msgstr "Закрыть"
 
 #. module: muk_dms_view
 #. openerp-web
 #: code:addons/muk_dms_view/static/src/xml/dialogs.xml:66
 #, python-format
 msgid "Close the selected node"
-msgstr ""
+msgstr "Закрыть выбранный узел"
 
 #. module: muk_dms_view
 #. openerp-web
 #: code:addons/muk_dms_view/static/src/xml/dialogs.xml:159
 #, python-format
 msgid "Context Menu"
-msgstr ""
+msgstr "Контекстное меню"
 
 #. module: muk_dms_view
 #. openerp-web
 #: code:addons/muk_dms_view/static/src/js/views/base/controller.js:574
 #, python-format
 msgid "Copy"
-msgstr ""
+msgstr "Скопировать"
 
 #. module: muk_dms_view
 #. openerp-web
@@ -133,21 +133,21 @@ msgstr ""
 #: code:addons/muk_dms_view/static/src/xml/controls.xml:43
 #, python-format
 msgid "Create"
-msgstr ""
+msgstr "Создать"
 
 #. module: muk_dms_view
 #. openerp-web
 #: code:addons/muk_dms_view/static/src/xml/preview.xml:55
 #, python-format
 msgid "Create:"
-msgstr ""
+msgstr "Создать:"
 
 #. module: muk_dms_view
 #. openerp-web
 #: code:addons/muk_dms_view/static/src/js/views/base/controller.js:565
 #, python-format
 msgid "Cut"
-msgstr ""
+msgstr "Вырезать"
 
 #. module: muk_dms_view
 #. openerp-web
@@ -155,21 +155,21 @@ msgstr ""
 #: code:addons/muk_dms_view/static/src/xml/controls.xml:51
 #, python-format
 msgid "Delete"
-msgstr ""
+msgstr "Удалить"
 
 #. module: muk_dms_view
 #. openerp-web
 #: code:addons/muk_dms_view/static/src/xml/preview.xml:77
 #, python-format
 msgid "Delete:"
-msgstr ""
+msgstr "Удалить:"
 
 #. module: muk_dms_view
 #. openerp-web
 #: code:addons/muk_dms_view/static/src/xml/info_dialogs.xml:86
 #, python-format
 msgid "Directories:"
-msgstr ""
+msgstr "Каталоги:"
 
 #. module: muk_dms_view
 #. openerp-web
@@ -179,21 +179,21 @@ msgstr ""
 #: model:ir.model,name:muk_dms_view.model_muk_dms_directory
 #, python-format
 msgid "Directory"
-msgstr ""
+msgstr "Каталог"
 
 #. module: muk_dms_view
 #. openerp-web
 #: code:addons/muk_dms_view/static/src/js/views/dialog/controller.js:68
 #, python-format
 msgid "Directory couldn't be created!"
-msgstr ""
+msgstr "Каталог не может быть создан!"
 
 #. module: muk_dms_view
 #. openerp-web
 #: code:addons/muk_dms_view/static/src/xml/controls.xml:65
 #, python-format
 msgid "Disable Refresh"
-msgstr ""
+msgstr "Отключить обновление"
 
 #. module: muk_dms_view
 #: code:addons/muk_dms_view/models/directory.py:83
@@ -202,28 +202,28 @@ msgstr ""
 #: model:ir.ui.menu,name:muk_dms_view.menu_dms_tree_view
 #, python-format
 msgid "Documents"
-msgstr ""
+msgstr "Документы"
 
 #. module: muk_dms_view
 #. openerp-web
 #: code:addons/muk_dms_view/static/src/js/views/base/controller.js:622
 #, python-format
 msgid "Download"
-msgstr ""
+msgstr "Загрузить"
 
 #. module: muk_dms_view
 #. openerp-web
 #: code:addons/muk_dms_view/static/src/xml/dialogs.xml:164
 #, python-format
 msgid "Drag and Drop"
-msgstr ""
+msgstr "Перетаскивание"
 
 #. module: muk_dms_view
 #. openerp-web
 #: code:addons/muk_dms_view/static/src/xml/dialogs.xml:145
 #, python-format
 msgid "END"
-msgstr ""
+msgstr "END"
 
 #. module: muk_dms_view
 #. openerp-web
@@ -231,14 +231,14 @@ msgstr ""
 #: code:addons/muk_dms_view/static/src/xml/controls.xml:47
 #, python-format
 msgid "Edit"
-msgstr ""
+msgstr "Редактировать"
 
 #. module: muk_dms_view
 #. openerp-web
 #: code:addons/muk_dms_view/static/src/xml/dialogs.xml:122
 #, python-format
 msgid "Edit the selected node"
-msgstr ""
+msgstr "Редактировать выбранный узел"
 
 #. module: muk_dms_view
 #. openerp-web
@@ -645,4 +645,3 @@ msgstr ""
 #, python-format
 msgid "yes"
 msgstr ""
-
