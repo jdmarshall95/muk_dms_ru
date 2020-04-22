@@ -4,12 +4,12 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 12.0-20190327\n"
+"Project-Id-Version: Odoo Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-30 20:25+0000\n"
-"PO-Revision-Date: 2019-04-30 20:25+0000\n"
-"Last-Translator: <Greendilow>\n"
-"Language-Team: Jabba\n"
+"POT-Creation-Date: 2020-04-20 09:46+0000\n"
+"PO-Revision-Date: 2020-04-20 09:46+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -18,13 +18,13 @@ msgstr ""
 #. module: muk_dms_thumbnails
 #: model:ir.model.fields,field_description:muk_dms_thumbnails.field_muk_dms_file__automatic_thumbnail
 msgid "Automatic Thumbnail"
-msgstr "Автоматическая миниатюра"
+msgstr "Автоматические миниатюры"
 
 #. module: muk_dms_thumbnails
-#: code:addons/muk_dms_thumbnails/models/res_config_settings.py:37
+#: code:addons/muk_dms_thumbnails/models/res_config_settings.py:40
 #, python-format
 msgid "Automatic Thumbnail Creation"
-msgstr "Создание автоматической миниатюры"
+msgstr "Создание автоматических миниатюр"
 
 #. module: muk_dms_thumbnails
 #: model:ir.model,name:muk_dms_thumbnails.model_res_config_settings
@@ -41,7 +41,7 @@ msgstr "Планирование задач"
 #: model:ir.cron,cron_name:muk_dms_thumbnails.cron_dms_file_thumbnails
 #: model:ir.cron,name:muk_dms_thumbnails.cron_dms_file_thumbnails
 msgid "Documents: Automatic Thumbnail Generation"
-msgstr "Документы: генерация автоматической миниатюры"
+msgstr "Документы: генерация автоматических миниатюр"
 
 #. module: muk_dms_thumbnails
 #: model:ir.model,name:muk_dms_thumbnails.model_muk_dms_file
@@ -56,7 +56,7 @@ msgstr "Средняя автоматическая миниатюра"
 #. module: muk_dms_thumbnails
 #: selection:muk_dms.storage,thumbnails:0
 msgid "On Creation/Update"
-msgstr "На создание/обновление"
+msgstr "Создается/Обновляется"
 
 #. module: muk_dms_thumbnails
 #: selection:muk_dms.storage,thumbnails:0
@@ -82,5 +82,5 @@ msgstr "Миниатюры"
 #: model:ir.model.fields,help:muk_dms_thumbnails.field_muk_dms_storage__thumbnails
 msgid "Thumbnails can be created either directly when\n"
 "            changing the file or once an hour via cron job."
-msgstr «Миниатюры могут быть созданы либо непосредственно при\n"
-"            изменении файла, либо раз в час с помощью планирования задач."
+msgstr "Миниатюры могут создаваться либо непосредственно\n"
+"            при изменении файла, либо раз в час с помощью планирования задач."
