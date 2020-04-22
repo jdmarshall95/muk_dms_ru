@@ -819,7 +819,7 @@ msgstr "Dateien"
 #: model_terms:ir.actions.act_window,help:muk_dms.action_dms_files_all_directory
 #: model_terms:ir.actions.act_window,help:muk_dms.action_dms_files_directory
 #: model_terms:ir.actions.act_window,help:muk_dms.action_dms_files_storage
-msgid "Файлы используются для сохранения контента непосредственно в Odoo."
+msgid "Files are used to save content directly in Odoo."
 msgstr "Dateien werden verwendet, um Inhalte direkt in Odoo zu speichern."
 
 #. module: muk_dms

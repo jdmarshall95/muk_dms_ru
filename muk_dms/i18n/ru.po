@@ -1572,5 +1572,5 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:muk_dms.action_dms_files_all_directory
 #: model_terms:ir.actions.act_window,help:muk_dms.action_dms_files_directory
 #: model_terms:ir.actions.act_window,help:muk_dms.action_dms_files_storage
-msgid "Файлы используются для сохранения контента непосредственно в Odoo."
-msgstr ""
+msgid "Files are used to save content directly in Odoo."
+msgstr "Файлы используются для сохранения контента непосредственно в Odoo."

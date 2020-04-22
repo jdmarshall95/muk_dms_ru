@@ -4,7 +4,7 @@
 
     Copyright (c) 2017-2019 MuK IT GmbH.
 
-    This file is part of MuK Documents 
+    This file is part of MuK Documents
     (see https://mukit.at).
 
     This program is free software: you can redistribute it and/or modify
@@ -68,7 +68,7 @@
 	      	Click to add a new file.
 	    </p>
 	    <p>
-			Файлы используются для сохранения контента непосредственно в Odoo.
+			Files are used to save content directly in Odoo.
 	    </p>
     </field>
 </record>
@@ -90,7 +90,7 @@
 	      	Add a new File.
 	    </p>
 	    <p>
-			Файлы используются для сохранения контента непосредственно в Odoo.
+			Files are used to save content directly in Odoo.
 	    </p>
     </field>
 </record>
@@ -128,19 +128,19 @@
 		<form string="Storage">
 			<header>
 				<button name="action_storage_migrate" type="object" string="Migrate Files" />
-				<button  type="action" name="%(muk_dms.action_dms_file_storage_migration)d" 
+				<button  type="action" name="%(muk_dms.action_dms_file_storage_migration)d"
 					class="oe_stat_button" string="Manual File Migration" />
 			</header>
 			<sheet>
 				<div class="oe_button_box" name="button_box">
-					<button  type="action" name="%(muk_dms.action_dms_directories_storage)d" 
+					<button  type="action" name="%(muk_dms.action_dms_directories_storage)d"
 						class="oe_stat_button" icon="fa-folder-open-o" >
 		                <field string="Directories" name="count_storage_directories" widget="statinfo"/>
-	 				</button>    
-	 				<button  type="action" name="%(muk_dms.action_dms_files_storage)d" 
+	 				</button>
+	 				<button  type="action" name="%(muk_dms.action_dms_files_storage)d"
 	 					class="oe_stat_button" icon="fa-file-text-o" >
 		                <field string="Files" name="count_storage_files" widget="statinfo"/>
-	 				</button>     
+	 				</button>
                 </div>
 				<div class="oe_title">
 					<label for="name" class="oe_edit_only" />
@@ -190,16 +190,16 @@
 	      	Create a new Storage object.
 	    </p>
 	    <p>
-			Storages are used to configure your Documents. 
+			Storages are used to configure your Documents.
 	    </p>
     </field>
 </record>
 
 <menuitem id="menu_dms_storage" name="Storages"
-	parent="cat_menu_muk_dms_config_system" 
+	parent="cat_menu_muk_dms_config_system"
 	action="action_dms_storage"
 	sequence="5" />
-	
+
 <record id="view_dms_storage_new_form" model="ir.ui.view">
 	<field name="name">muk_dms_storage.form</field>
 	<field name="model">muk_dms.storage</field>
@@ -210,7 +210,7 @@
 		<xpath expr="//sheet//div[hasclass('oe_button_box')]" position="replace" />
 		<form position="inside">
 	        <footer position="replace">
-	            <button class="btn btn-primary" type="object" string="Create" 
+	            <button class="btn btn-primary" type="object" string="Create"
 	            	name="action_save_onboarding_storage_step" />
 	            <button special="cancel" string="Cancel" />
 	        </footer>

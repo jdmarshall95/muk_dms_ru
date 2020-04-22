@@ -790,7 +790,7 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:muk_dms.action_dms_files_all_directory
 #: model_terms:ir.actions.act_window,help:muk_dms.action_dms_files_directory
 #: model_terms:ir.actions.act_window,help:muk_dms.action_dms_files_storage
-msgid "Файлы используются для сохранения контента непосредственно в Odoo."
+msgid "Files are used to save content directly in Odoo."
 msgstr ""
 
 #. module: muk_dms
@@ -1460,4 +1460,3 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:muk_dms.document_onboarding_file_panel
 msgid "res.company"
 msgstr ""
-
